@@ -1,0 +1,4605 @@
+[1mdiff --git a/.dio b/.dio[m
+[1mindex c570442..4ab93f9 100644[m
+[1m--- a/.dio[m
+[1m+++ b/.dio[m
+[36m@@ -1,156 +1,156 @@[m
+[31m-<mxfile host="65bd71144e">[m
+[31m-    <diagram id="C4mUHLpy4laYmI7sBgqQ" name="ページ1">[m
+[31m-        <mxGraphModel dx="1127" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">[m
+[31m-            <root>[m
+[31m-                <mxCell id="0"/>[m
+[31m-                <mxCell id="1" parent="0"/>[m
+[31m-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="90" width="270" height="140" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="3" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="90" width="280" height="25" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="130" width="280" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="5" value="ニックネーム" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="115" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="130" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="7" value="メールアドレス" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="130" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="145" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="10" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="145" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="11" value="名字（漢字）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="160" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="12" value="名前（漢字）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="175" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="13" value="名字（カナ）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="190" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="14" value="名前（カナ）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="205" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="15" value="誕生日" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="220" width="280" height="15" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="290" width="280" height="200" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="20" value="item(出品中商品)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="290" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="21" value="ユーザー" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="310" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="28" value="価格" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="350" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="29" value="商品の説明" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="370" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="30" value="商品の詳細（カテゴリー）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="390" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="31" value="商品の詳細（状態）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="410" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="32" value="配送（配送料）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="430" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="33" value="配送（配送元の地域）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="450" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="34" value="配送（配送までの日数）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="470" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="35" value="商品名" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry y="330" width="280" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="37" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="15" target="20">[m
+[31m-                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m
+[31m-                        <mxPoint x="290" y="220" as="sourcePoint"/>[m
+[31m-                        <mxPoint x="110" y="260" as="targetPoint"/>[m
+[31m-                    </mxGeometry>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="320" y="205" width="170" height="65" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="39" value="購入履歴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="320" y="205" width="170" height="25" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="40" value="ユーザー" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="320" y="230" width="170" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="41" value="商品" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="320" y="250" width="170" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="29">[m
+[31m-                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m
+[31m-                        <mxPoint x="350" y="370" as="sourcePoint"/>[m
+[31m-                        <mxPoint x="410" y="270" as="targetPoint"/>[m
+[31m-                        <Array as="points">[m
+[31m-                            <mxPoint x="410" y="370"/>[m
+[31m-                        </Array>[m
+[31m-                    </mxGeometry>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="160" width="200" height="200" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="48" value="発送先情報" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="160" width="200" height="30" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="49" value="購入履歴" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="190" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="50" value="配送先（郵便番号ハイフンあり）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="210" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="51" value="配送先（都道府県）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="227.5" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="52" value="配送先(市区町村)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="247.5" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="53" value="配送先（番地）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="267.5" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="54" value="配送先（建物名）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="287.5" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="55" value="電話番号（ハイフンなし）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m
+[31m-                    <mxGeometry x="530" y="307.5" width="200" height="20" as="geometry"/>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="56" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="39" target="48">[m
+[31m-                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m
+[31m-                        <mxPoint x="330" y="290" as="sourcePoint"/>[m
+[31m-                        <mxPoint x="430" y="190" as="targetPoint"/>[m
+[31m-                    </mxGeometry>[m
+[31m-                </mxCell>[m
+[31m-                <mxCell id="qccETZ5wfj2TkrrXsVK7-56" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="39">[m
+[31m-                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m
+[31m-                        <mxPoint x="330" y="350" as="sourcePoint"/>[m
+[31m-                        <mxPoint x="430" y="250" as="targetPoint"/>[m
+[31m-                    </mxGeometry>[m
+[31m-                </mxCell>[m
+[31m-            </root>[m
+[31m-        </mxGraphModel>[m
+[31m-    </diagram>[m
+[31m-    <diagram id="ksr9EID0zOTV2PM--Deh" name="ページ2">[m
+[31m-        <mxGraphModel dx="845" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">[m
+[31m-            <root>[m
+[31m-                <mxCell id="0"/>[m
+[31m-                <mxCell id="1" parent="0"/>[m
+[31m-            </root>[m
+[31m-        </mxGraphModel>[m
+[31m-    </diagram>[m
+[32m+[m[32m<mxfile host="65bd71144e">[m[41m[m
+[32m+[m[32m    <diagram id="C4mUHLpy4laYmI7sBgqQ" name="ページ1">[m[41m[m
+[32m+[m[32m        <mxGraphModel dx="1127" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">[m[41m[m
+[32m+[m[32m            <root>[m[41m[m
+[32m+[m[32m                <mxCell id="0"/>[m[41m[m
+[32m+[m[32m                <mxCell id="1" parent="0"/>[m[41m[m
+[32m+[m[32m                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="90" width="270" height="140" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="3" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="90" width="280" height="25" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="130" width="280" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="5" value="ニックネーム" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="115" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="130" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="7" value="メールアドレス" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="130" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="145" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="10" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="145" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="11" value="名字（漢字）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="160" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="12" value="名前（漢字）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="175" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="13" value="名字（カナ）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="190" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="14" value="名前（カナ）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="205" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="15" value="誕生日" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="220" width="280" height="15" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="290" width="280" height="200" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="20" value="item(出品中商品)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="290" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="21" value="ユーザー" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="310" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="28" value="価格" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="350" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="29" value="商品の説明" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="370" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="30" value="商品の詳細（カテゴリー）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="390" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="31" value="商品の詳細（状態）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="410" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="32" value="配送（配送料）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="430" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="33" value="配送（配送元の地域）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="450" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="34" value="配送（配送までの日数）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="470" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="35" value="商品名" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry y="330" width="280" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="37" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="15" target="20">[m[41m[m
+[32m+[m[32m                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m[41m[m
+[32m+[m[32m                        <mxPoint x="290" y="220" as="sourcePoint"/>[m[41m[m
+[32m+[m[32m                        <mxPoint x="110" y="260" as="targetPoint"/>[m[41m[m
+[32m+[m[32m                    </mxGeometry>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="320" y="205" width="170" height="65" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="39" value="購入履歴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="320" y="205" width="170" height="25" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="40" value="ユーザー" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="320" y="230" width="170" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="41" value="商品" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="320" y="250" width="170" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="29">[m[41m[m
+[32m+[m[32m                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m[41m[m
+[32m+[m[32m                        <mxPoint x="350" y="370" as="sourcePoint"/>[m[41m[m
+[32m+[m[32m                        <mxPoint x="410" y="270" as="targetPoint"/>[m[41m[m
+[32m+[m[32m                        <Array as="points">[m[41m[m
+[32m+[m[32m                            <mxPoint x="410" y="370"/>[m[41m[m
+[32m+[m[32m                        </Array>[m[41m[m
+[32m+[m[32m                    </mxGeometry>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="160" width="200" height="200" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="48" value="発送先情報" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="160" width="200" height="30" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="49" value="購入履歴" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="190" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="50" value="配送先（郵便番号ハイフンあり）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="210" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="51" value="配送先（都道府県）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="227.5" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="52" value="配送先(市区町村)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="247.5" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="53" value="配送先（番地）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="267.5" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="54" value="配送先（建物名）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="287.5" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="55" value="電話番号（ハイフンなし）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">[m[41m[m
+[32m+[m[32m                    <mxGeometry x="530" y="307.5" width="200" height="20" as="geometry"/>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="56" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="39" target="48">[m[41m[m
+[32m+[m[32m                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m[41m[m
+[32m+[m[32m                        <mxPoint x="330" y="290" as="sourcePoint"/>[m[41m[m
+[32m+[m[32m                        <mxPoint x="430" y="190" as="targetPoint"/>[m[41m[m
+[32m+[m[32m                    </mxGeometry>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m                <mxCell id="qccETZ5wfj2TkrrXsVK7-56" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="39">[m[41m[m
+[32m+[m[32m                    <mxGeometry width="100" height="100" relative="1" as="geometry">[m[41m[m
+[32m+[m[32m                        <mxPoint x="330" y="350" as="sourcePoint"/>[m[41m[m
+[32m+[m[32m                        <mxPoint x="430" y="250" as="targetPoint"/>[m[41m[m
+[32m+[m[32m                    </mxGeometry>[m[41m[m
+[32m+[m[32m                </mxCell>[m[41m[m
+[32m+[m[32m            </root>[m[41m[m
+[32m+[m[32m        </mxGraphModel>[m[41m[m
+[32m+[m[32m    </diagram>[m[41m[m
+[32m+[m[32m    <diagram id="ksr9EID0zOTV2PM--Deh" name="ページ2">[m[41m[m
+[32m+[m[32m        <mxGraphModel dx="845" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">[m[41m[m
+[32m+[m[32m            <root>[m[41m[m
+[32m+[m[32m                <mxCell id="0"/>[m[41m[m
+[32m+[m[32m                <mxCell id="1" parent="0"/>[m[41m[m
+[32m+[m[32m            </root>[m[41m[m
+[32m+[m[32m        </mxGraphModel>[m[41m[m
+[32m+[m[32m    </diagram>[m[41m[m
+ </mxfile>[m
+\ No newline at end of file[m
+[1mdiff --git a/.rubocop.yml b/.rubocop.yml[m
+[1mindex bb0c9e3..650fdae 100644[m
+[1m--- a/.rubocop.yml[m
+[1m+++ b/.rubocop.yml[m
+[36m@@ -1,81 +1,290 @@[m
+[31m-AllCops:[m
+[31m-# 除外するディレクトリ（自動生成されたファイル）[m
+[31m-# デフォルト設定にある"vendor/**/*"が無効化されないように記述[m
+[31m- Exclude:[m
+[31m-   - "vendor/**/*" # rubocop config/default.yml[m
+[31m-   - "db/**/*"[m
+[31m-   - "config/**/*"[m
+[31m-   - "bin/*"[m
+[31m-   - "node_modules/**/*"[m
+[31m-   - "Gemfile"[m
+[31m-[m
+[31m-[m
+[31m-# 1行あたりの文字数をチェックする[m
+[31m-Layout/LineLength:[m
+[31m- Max: 130[m
+[31m-# 下記ファイルはチェックの対象から外す[m
+[31m- Exclude:[m
+[31m-   - "Rakefile"[m
+[31m-   - "spec/rails_helper.rb"[m
+[31m-   - "spec/spec_helper.rb"[m
+[31m-[m
+[31m-# RSpecは1つのブロックあたりの行数が多くなるため、チェックの除外から外す[m
+[31m-# ブロック内の行数をチェックする[m
+[31m-Metrics/BlockLength:[m
+[31m- Exclude:[m
+[31m-   - "spec/**/*"[m
+[31m-[m
+[31m-# Assignment: 変数への代入[m
+[31m-# Branch: メソッド呼び出し[m
+[31m-# Condition: 条件文[m
+[31m-# 上記項目をRubocopが計算して基準値を超えると警告を出す（上記頭文字をとって'Abc'）[m
+[31m-Metrics/AbcSize:[m
+[31m- Max: 50[m
+[31m-[m
+[31m-# メソッドの中身が複雑になっていないか、Rubocopが計算して基準値を超えると警告を出す[m
+[31m-Metrics/PerceivedComplexity:[m
+[31m- Max: 8[m
+[31m-[m
+[31m-# 循環的複雑度が高すぎないかをチェック（ifやforなどを1メソッド内で使いすぎている）[m
+[31m-Metrics/CyclomaticComplexity:[m
+[31m- Max: 10[m
+[31m-[m
+[31m-# メソッドの行数が多すぎないかをチェック[m
+[31m-Metrics/MethodLength:[m
+[31m- Max: 30[m
+[31m-[m
+[31m-# ネストが深すぎないかをチェック（if文のネストもチェック）[m
+[31m-Metrics/BlockNesting:[m
+[31m- Max: 5[m
+[31m-[m
+[31m-# クラスの行数をチェック（無効）[m
+[31m-Metrics/ClassLength:[m
+[31m- Enabled: false[m
+[31m-[m
+[31m-# 空メソッドの場合に、1行のスタイルにしない　NG例：def style1; end[m
+[31m-Style/EmptyMethod:[m
+[31m- EnforcedStyle: expanded[m
+[31m-[m
+[31m-# クラス内にクラスが定義されていないかチェック（無効）[m
+[31m-Style/ClassAndModuleChildren:[m
+[31m- Enabled: false[m
+[31m-[m
+[31m-# 日本語でのコメントを許可[m
+[31m-Style/AsciiComments:[m
+[31m- Enabled: false[m
+[31m-[m
+[31m-# クラスやモジュール定義前に、それらの説明書きがあるかをチェック（無効）[m
+[31m-Style/Documentation:[m
+[31m- Enabled: false[m
+[31m-[m
+[31m-# ％i（）構文を使用していないシンボルで構成される配列リテラルをチェック（無効）[m
+[31m-Style/SymbolArray:[m
+[31m- Enabled: false[m
+[31m-[m
+[31m-# 文字列に値が代入されて変わっていないかチェック（無効）[m
+[31m-Style/FrozenStringLiteralComment:[m
+[31m- Enabled: false[m
+[31m-[m
+[31m-# メソッドパラメータ名の最小文字数を設定[m
+[31m-Naming/MethodParameterName:[m
+[31m- MinNameLength: 1[m
+\ No newline at end of file[m
+[32m+[m[32mAllCops:[m[41m[m
+[32m+[m[32m# 除外するディレクトリ（自動生成されたファイル）[m[41m[m
+[32m+[m[32m# デフォルト設定にある"vendor/**/*"が無効化されないように記述[m[41m[m
+[32m+[m[32m Exclude:[m[41m[m
+[32m+[m[32m   - "vendor/**/*" # rubocop config/default.yml[m[41m[m
+[32m+[m[32m   - "db/**/*"[m[41m[m
+[32m+[m[32m   - "config/**/*"[m[41m[m
+[32m+[m[32m   - "bin/*"[m[41m[m
+[32m+[m[32m   - "node_modules/**/*"[m[41m[m
+[32m+[m[32m   - "Gemfile"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# 1行あたりの文字数をチェックする[m[41m[m
+[32m+[m[32mLayout/LineLength:[m[41m[m
+[32m+[m[32m Max: 130[m[41m[m
+[32m+[m[32m# 下記ファイルはチェックの対象から外す[m[41m[m
+[32m+[m[32m Exclude:[m[41m[m
+[32m+[m[32m   - "Rakefile"[m[41m[m
+[32m+[m[32m   - "spec/rails_helper.rb"[m[41m[m
+[32m+[m[32m   - "spec/spec_helper.rb"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# RSpecは1つのブロックあたりの行数が多くなるため、チェックの除外から外す[m[41m[m
+[32m+[m[32m# ブロック内の行数をチェックする[m[41m[m
+[32m+[m[32mMetrics/BlockLength:[m[41m[m
+[32m+[m[32m Exclude:[m[41m[m
+[32m+[m[32m   - "spec/**/*"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Assignment: 変数への代入[m[41m[m
+[32m+[m[32m# Branch: メソッド呼び出し[m[41m[m
+[32m+[m[32m# Condition: 条件文[m[41m[m
+[32m+[m[32m# 上記項目をRubocopが計算して基準値を超えると警告を出す（上記頭文字をとって'Abc'）[m[41m[m
+[32m+[m[32mMetrics/AbcSize:[m[41m[m
+[32m+[m[32m Max: 50[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# メソッドの中身が複雑になっていないか、Rubocopが計算して基準値を超えると警告を出す[m[41m[m
+[32m+[m[32mMetrics/PerceivedComplexity:[m[41m[m
+[32m+[m[32m Max: 8[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# 循環的複雑度が高すぎないかをチェック（ifやforなどを1メソッド内で使いすぎている）[m[41m[m
+[32m+[m[32mMetrics/CyclomaticComplexity:[m[41m[m
+[32m+[m[32m Max: 10[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# メソッドの行数が多すぎないかをチェック[m[41m[m
+[32m+[m[32mMetrics/MethodLength:[m[41m[m
+[32m+[m[32m Max: 30[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# ネストが深すぎないかをチェック（if文のネストもチェック）[m[41m[m
+[32m+[m[32mMetrics/BlockNesting:[m[41m[m
+[32m+[m[32m Max: 5[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# クラスの行数をチェック（無効）[m[41m[m
+[32m+[m[32mMetrics/ClassLength:[m[41m[m
+[32m+[m[32m Enabled: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# 空メソッドの場合に、1行のスタイルにしない　NG例：def style1; end[m[41m[m
+[32m+[m[32mStyle/EmptyMethod:[m[41m[m
+[32m+[m[32m EnforcedStyle: expanded[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# クラス内にクラスが定義されていないかチェック（無効）[m[41m[m
+[32m+[m[32mStyle/ClassAndModuleChildren:[m[41m[m
+[32m+[m[32m Enabled: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# 日本語でのコメントを許可[m[41m[m
+[32m+[m[32mStyle/AsciiComments:[m[41m[m
+[32m+[m[32m Enabled: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# クラスやモジュール定義前に、それらの説明書きがあるかをチェック（無効）[m[41m[m
+[32m+[m[32mStyle/Documentation:[m[41m[m
+[32m+[m[32m Enabled: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# ％i（）構文を使用していないシンボルで構成される配列リテラルをチェック（無効）[m[41m[m
+[32m+[m[32mStyle/SymbolArray:[m[41m[m
+[32m+[m[32m Enabled: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# 文字列に値が代入されて変わっていないかチェック（無効）[m[41m[m
+[32m+[m[32mStyle/FrozenStringLiteralComment:[m[41m[m
+[32m+[m[32m Enabled: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# メソッドパラメータ名の最小文字数を設定[m[41m[m
+[32m+[m[32mNaming/MethodParameterName:[m[41m[m
+[32m+[m[32m MinNameLength: 1[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# 新しいコップを追加[m[41m[m
+[32m+[m[32mGemspec/AddRuntimeDependency:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mGemspec/DeprecatedAttributeAssignment:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mGemspec/DevelopmentDependencies:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mGemspec/RequireMFA:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLayout/LineContinuationLeadingSpace:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLayout/LineContinuationSpacing:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLayout/LineEndStringConcatenationIndentation:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLayout/SpaceBeforeBrackets:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/AmbiguousAssignment:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/AmbiguousOperatorPrecedence:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/AmbiguousRange:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/ConstantOverwrittenInRescue:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/DeprecatedConstants:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/DuplicateBranch:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/DuplicateMagicComment:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/DuplicateMatchPattern:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/DuplicateRegexpCharacterClassElement:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/EmptyBlock:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/EmptyClass:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/EmptyInPattern:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/IncompatibleIoSelectWithFiberScheduler:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/ItWithoutArgumentsInBlock:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/LambdaWithoutLiteralBlock:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/LiteralAssignmentInCondition:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/MixedCaseRange:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/NoReturnInBeginEndBlocks:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/NonAtomicFileOperation:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/NumberedParameterAssignment:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/OrAssignmentToConstant:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/RedundantDirGlobSort:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/RedundantRegexpQuantifiers:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/RefinementImportMethods:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/RequireRangeParentheses:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/RequireRelativeSelfPath:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/SymbolConversion:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/ToEnumArguments:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/TripleQuotes:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/UnexpectedBlockArity:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/UnmodifiedReduceAccumulator:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/UselessRescue:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mLint/UselessRuby2Keywords:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mMetrics/CollectionLiteralLength:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mNaming/BlockForwarding:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mSecurity/CompoundHash:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mSecurity/IoMethods:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ArgumentsForwarding:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ArrayIntersect:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/CollectionCompact:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ComparableClamp:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ConcatArrayLiterals:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/DataInheritance:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/DirEmpty:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/DocumentDynamicEvalDefinition:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/EmptyHeredoc:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/EndlessMethod:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/EnvHome:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ExactRegexpMatch:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/FetchEnvVar:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/FileEmpty:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/FileRead:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/FileWrite:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/HashConversion:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/HashExcept:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/IfWithBooleanLiteralBranches:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/InPatternThen:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MagicCommentFormat:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MapCompactWithConditionalBlock:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MapIntoArray:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MapToHash:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MapToSet:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MinMaxComparison:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/MultilineInPatternThen:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/NegatedIfElseCondition:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/NestedFileDirname:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/NilLambda:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/NumberedParameters:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/NumberedParametersLimit:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ObjectThen:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/OpenStructUse:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/OperatorMethodCall:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/QuotedSymbols:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantArgument:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantArrayConstructor:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantConstantBase:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantCurrentDirectoryInPath:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantDoubleSplatHashBraces:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantEach:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantFilterChain:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantHeredocDelimiterQuotes:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantInitialize:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantLineContinuation:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantRegexpArgument:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantRegexpConstructor:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantSelfAssignmentBranch:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/RedundantStringEscape:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/ReturnNilInPredicateMethodDefinition:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/SelectByRegexp:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/SendWithLiteralMethodName:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/SingleLineDoEndBlock:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/StringChars:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/SuperArguments:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/SuperWithArgsParentheses:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/SwapValues:[m[41m[m
+[32m+[m[32m  Enabled: true[m[41m[m
+[32m+[m[32mStyle/YAMLFileRead:[m[41m[m
+[32m+[m[32m  Enabled: true[m
+\ No newline at end of file[m
+[1mdiff --git a/Gemfile b/Gemfile[m
+[1mindex 3c651c4..80e228c 100644[m
+[1m--- a/Gemfile[m
+[1m+++ b/Gemfile[m
+[36m@@ -1,80 +1,82 @@[m
+[31m-source "https://rubygems.org"[m
+[31m-git_source(:github) { |repo| "https://github.com/#{repo}.git" }[m
+[31m-[m
+[31m-ruby "3.2.0"[m
+[31m-[m
+[31m-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"[m
+[31m-gem "rails", "~> 7.0.0"[m
+[31m-[m
+[31m-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails][m
+[31m-gem "sprockets-rails"[m
+[31m-[m
+[31m-# Use mysql as the database for Active Record[m
+[31m-gem "mysql2", "~> 0.5"[m
+[31m-[m
+[31m-# Use the Puma web server [https://github.com/puma/puma][m
+[31m-gem "puma", "~> 5.0"[m
+[31m-[m
+[31m-# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails][m
+[31m-gem "importmap-rails"[m
+[31m-[m
+[31m-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev][m
+[31m-gem "turbo-rails"[m
+[31m-[m
+[31m-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev][m
+[31m-gem "stimulus-rails"[m
+[31m-[m
+[31m-# Build JSON APIs with ease [https://github.com/rails/jbuilder][m
+[31m-gem "jbuilder"[m
+[31m-[m
+[31m-# Use Redis adapter to run Action Cable in production[m
+[31m-# gem "redis", "~> 4.0"[m
+[31m-[m
+[31m-# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis][m
+[31m-# gem "kredis"[m
+[31m-[m
+[31m-# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword][m
+[31m-# gem "bcrypt", "~> 3.1.7"[m
+[31m-[m
+[31m-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem[m
+[31m-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ][m
+[31m-[m
+[31m-# Reduces boot times through caching; required in config/boot.rb[m
+[31m-gem "bootsnap", require: false[m
+[31m-[m
+[31m-# Use Sass to process CSS[m
+[31m-# gem "sassc-rails"[m
+[31m-[m
+[31m-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images][m
+[31m-# gem "image_processing", "~> 1.2"[m
+[31m-[m
+[31m-group :development, :test do[m
+[31m-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem[m
+[31m-  gem "debug", platforms: %i[ mri mingw x64_mingw ][m
+[31m-end[m
+[31m-[m
+[31m-group :development do[m
+[31m-  # Use console on exceptions pages [https://github.com/rails/web-console][m
+[31m-  gem "web-console"[m
+[31m-[m
+[31m-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler][m
+[31m-  # gem "rack-mini-profiler"[m
+[31m-[m
+[31m-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring][m
+[31m-  # gem "spring"[m
+[31m-end[m
+[31m-[m
+[31m-group :test do[m
+[31m-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing][m
+[31m-  gem "capybara"[m
+[31m-  gem "selenium-webdriver"[m
+[31m-  gem "webdrivers"[m
+[31m-end[m
+[31m-[m
+[31m-group :development do[m
+[31m-  gem 'rubocop', require: false[m
+[31m-end[m
+[31m-[m
+[31m-group :production do[m
+[31m-  gem 'pg'[m
+[31m-end[m
+\ No newline at end of file[m
+[32m+[m[32msource "https://rubygems.org"[m[41m[m
+[32m+[m[32mgit_source(:github) { |repo| "https://github.com/#{repo}.git" }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mruby "3.2.0"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"[m[41m[m
+[32m+[m[32mgem "rails", "~> 7.0.0"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails][m[41m[m
+[32m+[m[32mgem "sprockets-rails"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use mysql as the database for Active Record[m[41m[m
+[32m+[m[32mgem "mysql2", "~> 0.5"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use the Puma web server [https://github.com/puma/puma][m[41m[m
+[32m+[m[32mgem "puma", "~> 5.0"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails][m[41m[m
+[32m+[m[32mgem "importmap-rails"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev][m[41m[m
+[32m+[m[32mgem "turbo-rails"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev][m[41m[m
+[32m+[m[32mgem "stimulus-rails"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Build JSON APIs with ease [https://github.com/rails/jbuilder][m[41m[m
+[32m+[m[32mgem "jbuilder"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use Redis adapter to run Action Cable in production[m[41m[m
+[32m+[m[32m# gem "redis", "~> 4.0"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis][m[41m[m
+[32m+[m[32m# gem "kredis"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword][m[41m[m
+[32m+[m[32m# gem "bcrypt", "~> 3.1.7"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Windows does not include zoneinfo files, so bundle the tzinfo-data gem[m[41m[m
+[32m+[m[32mgem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ][m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Reduces boot times through caching; required in config/boot.rb[m[41m[m
+[32m+[m[32mgem "bootsnap", require: false[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use Sass to process CSS[m[41m[m
+[32m+[m[32m# gem "sassc-rails"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images][m[41m[m
+[32m+[m[32m# gem "image_processing", "~> 1.2"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mgroup :development, :test do[m[41m[m
+[32m+[m[32m  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem[m[41m[m
+[32m+[m[32m  gem "debug", platforms: %i[ mri mingw x64_mingw ][m[41m[m
+[32m+[m[32mend[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mgroup :development do[m[41m[m
+[32m+[m[32m  # Use console on exceptions pages [https://github.com/rails/web-console][m[41m[m
+[32m+[m[32m  gem "web-console"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler][m[41m[m
+[32m+[m[32m  # gem "rack-mini-profiler"[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  # Speed up commands on slow machines / big apps [https://github.com/rails/spring][m[41m[m
+[32m+[m[32m  # gem "spring"[m[41m[m
+[32m+[m[32mend[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mgroup :test do[m[41m[m
+[32m+[m[32m  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing][m[41m[m
+[32m+[m[32m  gem "capybara"[m[41m[m
+[32m+[m[32m  gem "selenium-webdriver"[m[41m[m
+[32m+[m[32m  gem "webdrivers"[m[41m[m
+[32m+[m[32mend[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mgroup :development do[m[41m[m
+[32m+[m[32m  gem 'rubocop', require: false[m[41m[m
+[32m+[m[32mend[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mgroup :production do[m[41m[m
+[32m+[m[32m  gem 'pg'[m[41m[m
+[32m+[m[32mend[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mgem 'devise'[m
+\ No newline at end of file[m
+[1mdiff --git a/Gemfile.lock b/Gemfile.lock[m
+[1mindex 24faae3..5c54482 100644[m
+[1m--- a/Gemfile.lock[m
+[1m+++ b/Gemfile.lock[m
+[36m@@ -1,269 +1,283 @@[m
+[31m-GEM[m
+[31m-  remote: https://rubygems.org/[m
+[31m-  specs:[m
+[31m-    actioncable (7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      nio4r (~> 2.0)[m
+[31m-      websocket-driver (>= 0.6.1)[m
+[31m-    actionmailbox (7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      activejob (= 7.0.8.4)[m
+[31m-      activerecord (= 7.0.8.4)[m
+[31m-      activestorage (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      mail (>= 2.7.1)[m
+[31m-      net-imap[m
+[31m-      net-pop[m
+[31m-      net-smtp[m
+[31m-    actionmailer (7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      actionview (= 7.0.8.4)[m
+[31m-      activejob (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      mail (~> 2.5, >= 2.5.4)[m
+[31m-      net-imap[m
+[31m-      net-pop[m
+[31m-      net-smtp[m
+[31m-      rails-dom-testing (~> 2.0)[m
+[31m-    actionpack (7.0.8.4)[m
+[31m-      actionview (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      rack (~> 2.0, >= 2.2.4)[m
+[31m-      rack-test (>= 0.6.3)[m
+[31m-      rails-dom-testing (~> 2.0)[m
+[31m-      rails-html-sanitizer (~> 1.0, >= 1.2.0)[m
+[31m-    actiontext (7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      activerecord (= 7.0.8.4)[m
+[31m-      activestorage (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      globalid (>= 0.6.0)[m
+[31m-      nokogiri (>= 1.8.5)[m
+[31m-    actionview (7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      builder (~> 3.1)[m
+[31m-      erubi (~> 1.4)[m
+[31m-      rails-dom-testing (~> 2.0)[m
+[31m-      rails-html-sanitizer (~> 1.1, >= 1.2.0)[m
+[31m-    activejob (7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      globalid (>= 0.3.6)[m
+[31m-    activemodel (7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-    activerecord (7.0.8.4)[m
+[31m-      activemodel (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-    activestorage (7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      activejob (= 7.0.8.4)[m
+[31m-      activerecord (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      marcel (~> 1.0)[m
+[31m-      mini_mime (>= 1.1.0)[m
+[31m-    activesupport (7.0.8.4)[m
+[31m-      concurrent-ruby (~> 1.0, >= 1.0.2)[m
+[31m-      i18n (>= 1.6, < 2)[m
+[31m-      minitest (>= 5.1)[m
+[31m-      tzinfo (~> 2.0)[m
+[31m-    addressable (2.8.7)[m
+[31m-      public_suffix (>= 2.0.2, < 7.0)[m
+[31m-    ast (2.4.2)[m
+[31m-    bindex (0.8.1)[m
+[31m-    bootsnap (1.18.4)[m
+[31m-      msgpack (~> 1.2)[m
+[31m-    builder (3.3.0)[m
+[31m-    capybara (3.40.0)[m
+[31m-      addressable[m
+[31m-      matrix[m
+[31m-      mini_mime (>= 0.1.3)[m
+[31m-      nokogiri (~> 1.11)[m
+[31m-      rack (>= 1.6.0)[m
+[31m-      rack-test (>= 0.6.3)[m
+[31m-      regexp_parser (>= 1.5, < 3.0)[m
+[31m-      xpath (~> 3.2)[m
+[31m-    concurrent-ruby (1.3.4)[m
+[31m-    crass (1.0.6)[m
+[31m-    date (3.3.4)[m
+[31m-    debug (1.9.2)[m
+[31m-      irb (~> 1.10)[m
+[31m-      reline (>= 0.3.8)[m
+[31m-    erubi (1.13.0)[m
+[31m-    globalid (1.2.1)[m
+[31m-      activesupport (>= 6.1)[m
+[31m-    i18n (1.14.5)[m
+[31m-      concurrent-ruby (~> 1.0)[m
+[31m-    importmap-rails (2.0.1)[m
+[31m-      actionpack (>= 6.0.0)[m
+[31m-      activesupport (>= 6.0.0)[m
+[31m-      railties (>= 6.0.0)[m
+[31m-    io-console (0.7.2)[m
+[31m-    irb (1.14.0)[m
+[31m-      rdoc (>= 4.0.0)[m
+[31m-      reline (>= 0.4.2)[m
+[31m-    jbuilder (2.12.0)[m
+[31m-      actionview (>= 5.0.0)[m
+[31m-      activesupport (>= 5.0.0)[m
+[31m-    json (2.7.2)[m
+[31m-    language_server-protocol (3.17.0.3)[m
+[31m-    loofah (2.22.0)[m
+[31m-      crass (~> 1.0.2)[m
+[31m-      nokogiri (>= 1.12.0)[m
+[31m-    mail (2.8.1)[m
+[31m-      mini_mime (>= 0.1.1)[m
+[31m-      net-imap[m
+[31m-      net-pop[m
+[31m-      net-smtp[m
+[31m-    marcel (1.0.4)[m
+[31m-    matrix (0.4.2)[m
+[31m-    method_source (1.1.0)[m
+[31m-    mini_mime (1.1.5)[m
+[31m-    minitest (5.25.1)[m
+[31m-    msgpack (1.7.2)[m
+[31m-    mysql2 (0.5.6)[m
+[31m-    net-imap (0.4.14)[m
+[31m-      date[m
+[31m-      net-protocol[m
+[31m-    net-pop (0.1.2)[m
+[31m-      net-protocol[m
+[31m-    net-protocol (0.2.2)[m
+[31m-      timeout[m
+[31m-    net-smtp (0.5.0)[m
+[31m-      net-protocol[m
+[31m-    nio4r (2.7.3)[m
+[31m-    nokogiri (1.16.7-x86_64-linux)[m
+[31m-      racc (~> 1.4)[m
+[31m-    parallel (1.26.3)[m
+[31m-    parser (3.3.4.2)[m
+[31m-      ast (~> 2.4.1)[m
+[31m-      racc[m
+[31m-    pg (1.5.7)[m
+[31m-    psych (5.1.2)[m
+[31m-      stringio[m
+[31m-    public_suffix (6.0.1)[m
+[31m-    puma (5.6.8)[m
+[31m-      nio4r (~> 2.0)[m
+[31m-    racc (1.8.1)[m
+[31m-    rack (2.2.9)[m
+[31m-    rack-test (2.1.0)[m
+[31m-      rack (>= 1.3)[m
+[31m-    rails (7.0.8.4)[m
+[31m-      actioncable (= 7.0.8.4)[m
+[31m-      actionmailbox (= 7.0.8.4)[m
+[31m-      actionmailer (= 7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      actiontext (= 7.0.8.4)[m
+[31m-      actionview (= 7.0.8.4)[m
+[31m-      activejob (= 7.0.8.4)[m
+[31m-      activemodel (= 7.0.8.4)[m
+[31m-      activerecord (= 7.0.8.4)[m
+[31m-      activestorage (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      bundler (>= 1.15.0)[m
+[31m-      railties (= 7.0.8.4)[m
+[31m-    rails-dom-testing (2.2.0)[m
+[31m-      activesupport (>= 5.0.0)[m
+[31m-      minitest[m
+[31m-      nokogiri (>= 1.6)[m
+[31m-    rails-html-sanitizer (1.6.0)[m
+[31m-      loofah (~> 2.21)[m
+[31m-      nokogiri (~> 1.14)[m
+[31m-    railties (7.0.8.4)[m
+[31m-      actionpack (= 7.0.8.4)[m
+[31m-      activesupport (= 7.0.8.4)[m
+[31m-      method_source[m
+[31m-      rake (>= 12.2)[m
+[31m-      thor (~> 1.0)[m
+[31m-      zeitwerk (~> 2.5)[m
+[31m-    rainbow (3.1.1)[m
+[31m-    rake (13.2.1)[m
+[31m-    rdoc (6.7.0)[m
+[31m-      psych (>= 4.0.0)[m
+[31m-    regexp_parser (2.9.2)[m
+[31m-    reline (0.5.9)[m
+[31m-      io-console (~> 0.5)[m
+[31m-    rexml (3.3.5)[m
+[31m-      strscan[m
+[31m-    rubocop (1.65.1)[m
+[31m-      json (~> 2.3)[m
+[31m-      language_server-protocol (>= 3.17.0)[m
+[31m-      parallel (~> 1.10)[m
+[31m-      parser (>= 3.3.0.2)[m
+[31m-      rainbow (>= 2.2.2, < 4.0)[m
+[31m-      regexp_parser (>= 2.4, < 3.0)[m
+[31m-      rexml (>= 3.2.5, < 4.0)[m
+[31m-      rubocop-ast (>= 1.31.1, < 2.0)[m
+[31m-      ruby-progressbar (~> 1.7)[m
+[31m-      unicode-display_width (>= 2.4.0, < 3.0)[m
+[31m-    rubocop-ast (1.32.1)[m
+[31m-      parser (>= 3.3.1.0)[m
+[31m-    ruby-progressbar (1.13.0)[m
+[31m-    rubyzip (2.3.2)[m
+[31m-    selenium-webdriver (4.10.0)[m
+[31m-      rexml (~> 3.2, >= 3.2.5)[m
+[31m-      rubyzip (>= 1.2.2, < 3.0)[m
+[31m-      websocket (~> 1.0)[m
+[31m-    sprockets (4.2.1)[m
+[31m-      concurrent-ruby (~> 1.0)[m
+[31m-      rack (>= 2.2.4, < 4)[m
+[31m-    sprockets-rails (3.5.2)[m
+[31m-      actionpack (>= 6.1)[m
+[31m-      activesupport (>= 6.1)[m
+[31m-      sprockets (>= 3.0.0)[m
+[31m-    stimulus-rails (1.3.4)[m
+[31m-      railties (>= 6.0.0)[m
+[31m-    stringio (3.1.1)[m
+[31m-    strscan (3.1.0)[m
+[31m-    thor (1.3.1)[m
+[31m-    timeout (0.4.1)[m
+[31m-    turbo-rails (2.0.6)[m
+[31m-      actionpack (>= 6.0.0)[m
+[31m-      activejob (>= 6.0.0)[m
+[31m-      railties (>= 6.0.0)[m
+[31m-    tzinfo (2.0.6)[m
+[31m-      concurrent-ruby (~> 1.0)[m
+[31m-    unicode-display_width (2.5.0)[m
+[31m-    web-console (4.2.1)[m
+[31m-      actionview (>= 6.0.0)[m
+[31m-      activemodel (>= 6.0.0)[m
+[31m-      bindex (>= 0.4.0)[m
+[31m-      railties (>= 6.0.0)[m
+[31m-    webdrivers (5.3.1)[m
+[31m-      nokogiri (~> 1.6)[m
+[31m-      rubyzip (>= 1.3.0)[m
+[31m-      selenium-webdriver (~> 4.0, < 4.11)[m
+[31m-    websocket (1.2.11)[m
+[31m-    websocket-driver (0.7.6)[m
+[31m-      websocket-extensions (>= 0.1.0)[m
+[31m-    websocket-extensions (0.1.5)[m
+[31m-    xpath (3.2.0)[m
+[31m-      nokogiri (~> 1.8)[m
+[31m-    zeitwerk (2.6.17)[m
+[31m-[m
+[31m-PLATFORMS[m
+[31m-  x86_64-linux[m
+[31m-[m
+[31m-DEPENDENCIES[m
+[31m-  bootsnap[m
+[31m-  capybara[m
+[31m-  debug[m
+[31m-  importmap-rails[m
+[31m-  jbuilder[m
+[31m-  mysql2 (~> 0.5)[m
+[31m-  pg[m
+[31m-  puma (~> 5.0)[m
+[31m-  rails (~> 7.0.0)[m
+[31m-  rubocop[m
+[31m-  selenium-webdriver[m
+[31m-  sprockets-rails[m
+[31m-  stimulus-rails[m
+[31m-  turbo-rails[m
+[31m-  tzinfo-data[m
+[31m-  web-console[m
+[31m-  webdrivers[m
+[31m-[m
+[31m-RUBY VERSION[m
+[31m-   ruby 3.2.0p0[m
+[31m-[m
+[31m-BUNDLED WITH[m
+[31m-   2.4.1[m
+[32m+[m[32mGEM[m[41m[m
+[32m+[m[32m  remote: https://rubygems.org/[m[41m[m
+[32m+[m[32m  specs:[m[41m[m
+[32m+[m[32m    actioncable (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      nio4r (~> 2.0)[m[41m[m
+[32m+[m[32m      websocket-driver (>= 0.6.1)[m[41m[m
+[32m+[m[32m    actionmailbox (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activejob (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activerecord (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activestorage (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      mail (>= 2.7.1)[m[41m[m
+[32m+[m[32m      net-imap[m[41m[m
+[32m+[m[32m      net-pop[m[41m[m
+[32m+[m[32m      net-smtp[m[41m[m
+[32m+[m[32m    actionmailer (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      actionview (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activejob (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      mail (~> 2.5, >= 2.5.4)[m[41m[m
+[32m+[m[32m      net-imap[m[41m[m
+[32m+[m[32m      net-pop[m[41m[m
+[32m+[m[32m      net-smtp[m[41m[m
+[32m+[m[32m      rails-dom-testing (~> 2.0)[m[41m[m
+[32m+[m[32m    actionpack (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionview (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      rack (~> 2.0, >= 2.2.4)[m[41m[m
+[32m+[m[32m      rack-test (>= 0.6.3)[m[41m[m
+[32m+[m[32m      rails-dom-testing (~> 2.0)[m[41m[m
+[32m+[m[32m      rails-html-sanitizer (~> 1.0, >= 1.2.0)[m[41m[m
+[32m+[m[32m    actiontext (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activerecord (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activestorage (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      globalid (>= 0.6.0)[m[41m[m
+[32m+[m[32m      nokogiri (>= 1.8.5)[m[41m[m
+[32m+[m[32m    actionview (7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      builder (~> 3.1)[m[41m[m
+[32m+[m[32m      erubi (~> 1.4)[m[41m[m
+[32m+[m[32m      rails-dom-testing (~> 2.0)[m[41m[m
+[32m+[m[32m      rails-html-sanitizer (~> 1.1, >= 1.2.0)[m[41m[m
+[32m+[m[32m    activejob (7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      globalid (>= 0.3.6)[m[41m[m
+[32m+[m[32m    activemodel (7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m    activerecord (7.0.8.4)[m[41m[m
+[32m+[m[32m      activemodel (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m    activestorage (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activejob (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activerecord (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      marcel (~> 1.0)[m[41m[m
+[32m+[m[32m      mini_mime (>= 1.1.0)[m[41m[m
+[32m+[m[32m    activesupport (7.0.8.4)[m[41m[m
+[32m+[m[32m      concurrent-ruby (~> 1.0, >= 1.0.2)[m[41m[m
+[32m+[m[32m      i18n (>= 1.6, < 2)[m[41m[m
+[32m+[m[32m      minitest (>= 5.1)[m[41m[m
+[32m+[m[32m      tzinfo (~> 2.0)[m[41m[m
+[32m+[m[32m    addressable (2.8.7)[m[41m[m
+[32m+[m[32m      public_suffix (>= 2.0.2, < 7.0)[m[41m[m
+[32m+[m[32m    ast (2.4.2)[m[41m[m
+[32m+[m[32m    bcrypt (3.1.20)[m[41m[m
+[32m+[m[32m    bindex (0.8.1)[m[41m[m
+[32m+[m[32m    bootsnap (1.18.4)[m[41m[m
+[32m+[m[32m      msgpack (~> 1.2)[m[41m[m
+[32m+[m[32m    builder (3.3.0)[m[41m[m
+[32m+[m[32m    capybara (3.40.0)[m[41m[m
+[32m+[m[32m      addressable[m[41m[m
+[32m+[m[32m      matrix[m[41m[m
+[32m+[m[32m      mini_mime (>= 0.1.3)[m[41m[m
+[32m+[m[32m      nokogiri (~> 1.11)[m[41m[m
+[32m+[m[32m      rack (>= 1.6.0)[m[41m[m
+[32m+[m[32m      rack-test (>= 0.6.3)[m[41m[m
+[32m+[m[32m      regexp_parser (>= 1.5, < 3.0)[m[41m[m
+[32m+[m[32m      xpath (~> 3.2)[m[41m[m
+[32m+[m[32m    concurrent-ruby (1.3.4)[m[41m[m
+[32m+[m[32m    crass (1.0.6)[m[41m[m
+[32m+[m[32m    date (3.3.4)[m[41m[m
+[32m+[m[32m    debug (1.9.2)[m[41m[m
+[32m+[m[32m      irb (~> 1.10)[m[41m[m
+[32m+[m[32m      reline (>= 0.3.8)[m[41m[m
+[32m+[m[32m    devise (4.9.4)[m[41m[m
+[32m+[m[32m      bcrypt (~> 3.0)[m[41m[m
+[32m+[m[32m      orm_adapter (~> 0.1)[m[41m[m
+[32m+[m[32m      railties (>= 4.1.0)[m[41m[m
+[32m+[m[32m      responders[m[41m[m
+[32m+[m[32m      warden (~> 1.2.3)[m[41m[m
+[32m+[m[32m    erubi (1.13.0)[m[41m[m
+[32m+[m[32m    globalid (1.2.1)[m[41m[m
+[32m+[m[32m      activesupport (>= 6.1)[m[41m[m
+[32m+[m[32m    i18n (1.14.5)[m[41m[m
+[32m+[m[32m      concurrent-ruby (~> 1.0)[m[41m[m
+[32m+[m[32m    importmap-rails (2.0.1)[m[41m[m
+[32m+[m[32m      actionpack (>= 6.0.0)[m[41m[m
+[32m+[m[32m      activesupport (>= 6.0.0)[m[41m[m
+[32m+[m[32m      railties (>= 6.0.0)[m[41m[m
+[32m+[m[32m    io-console (0.7.2)[m[41m[m
+[32m+[m[32m    irb (1.14.0)[m[41m[m
+[32m+[m[32m      rdoc (>= 4.0.0)[m[41m[m
+[32m+[m[32m      reline (>= 0.4.2)[m[41m[m
+[32m+[m[32m    jbuilder (2.12.0)[m[41m[m
+[32m+[m[32m      actionview (>= 5.0.0)[m[41m[m
+[32m+[m[32m      activesupport (>= 5.0.0)[m[41m[m
+[32m+[m[32m    json (2.7.2)[m[41m[m
+[32m+[m[32m    language_server-protocol (3.17.0.3)[m[41m[m
+[32m+[m[32m    loofah (2.22.0)[m[41m[m
+[32m+[m[32m      crass (~> 1.0.2)[m[41m[m
+[32m+[m[32m      nokogiri (>= 1.12.0)[m[41m[m
+[32m+[m[32m    mail (2.8.1)[m[41m[m
+[32m+[m[32m      mini_mime (>= 0.1.1)[m[41m[m
+[32m+[m[32m      net-imap[m[41m[m
+[32m+[m[32m      net-pop[m[41m[m
+[32m+[m[32m      net-smtp[m[41m[m
+[32m+[m[32m    marcel (1.0.4)[m[41m[m
+[32m+[m[32m    matrix (0.4.2)[m[41m[m
+[32m+[m[32m    method_source (1.1.0)[m[41m[m
+[32m+[m[32m    mini_mime (1.1.5)[m[41m[m
+[32m+[m[32m    minitest (5.25.1)[m[41m[m
+[32m+[m[32m    msgpack (1.7.2)[m[41m[m
+[32m+[m[32m    mysql2 (0.5.6)[m[41m[m
+[32m+[m[32m    net-imap (0.4.14)[m[41m[m
+[32m+[m[32m      date[m[41m[m
+[32m+[m[32m      net-protocol[m[41m[m
+[32m+[m[32m    net-pop (0.1.2)[m[41m[m
+[32m+[m[32m      net-protocol[m[41m[m
+[32m+[m[32m    net-protocol (0.2.2)[m[41m[m
+[32m+[m[32m      timeout[m[41m[m
+[32m+[m[32m    net-smtp (0.5.0)[m[41m[m
+[32m+[m[32m      net-protocol[m[41m[m
+[32m+[m[32m    nio4r (2.7.3)[m[41m[m
+[32m+[m[32m    nokogiri (1.16.7-x86_64-linux)[m[41m[m
+[32m+[m[32m      racc (~> 1.4)[m[41m[m
+[32m+[m[32m    orm_adapter (0.5.0)[m[41m[m
+[32m+[m[32m    parallel (1.26.3)[m[41m[m
+[32m+[m[32m    parser (3.3.4.2)[m[41m[m
+[32m+[m[32m      ast (~> 2.4.1)[m[41m[m
+[32m+[m[32m      racc[m[41m[m
+[32m+[m[32m    pg (1.5.7)[m[41m[m
+[32m+[m[32m    psych (5.1.2)[m[41m[m
+[32m+[m[32m      stringio[m[41m[m
+[32m+[m[32m    public_suffix (6.0.1)[m[41m[m
+[32m+[m[32m    puma (5.6.8)[m[41m[m
+[32m+[m[32m      nio4r (~> 2.0)[m[41m[m
+[32m+[m[32m    racc (1.8.1)[m[41m[m
+[32m+[m[32m    rack (2.2.9)[m[41m[m
+[32m+[m[32m    rack-test (2.1.0)[m[41m[m
+[32m+[m[32m      rack (>= 1.3)[m[41m[m
+[32m+[m[32m    rails (7.0.8.4)[m[41m[m
+[32m+[m[32m      actioncable (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      actionmailbox (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      actionmailer (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      actiontext (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      actionview (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activejob (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activemodel (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activerecord (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activestorage (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      bundler (>= 1.15.0)[m[41m[m
+[32m+[m[32m      railties (= 7.0.8.4)[m[41m[m
+[32m+[m[32m    rails-dom-testing (2.2.0)[m[41m[m
+[32m+[m[32m      activesupport (>= 5.0.0)[m[41m[m
+[32m+[m[32m      minitest[m[41m[m
+[32m+[m[32m      nokogiri (>= 1.6)[m[41m[m
+[32m+[m[32m    rails-html-sanitizer (1.6.0)[m[41m[m
+[32m+[m[32m      loofah (~> 2.21)[m[41m[m
+[32m+[m[32m      nokogiri (~> 1.14)[m[41m[m
+[32m+[m[32m    railties (7.0.8.4)[m[41m[m
+[32m+[m[32m      actionpack (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      activesupport (= 7.0.8.4)[m[41m[m
+[32m+[m[32m      method_source[m[41m[m
+[32m+[m[32m      rake (>= 12.2)[m[41m[m
+[32m+[m[32m      thor (~> 1.0)[m[41m[m
+[32m+[m[32m      zeitwerk (~> 2.5)[m[41m[m
+[32m+[m[32m    rainbow (3.1.1)[m[41m[m
+[32m+[m[32m    rake (13.2.1)[m[41m[m
+[32m+[m[32m    rdoc (6.7.0)[m[41m[m
+[32m+[m[32m      psych (>= 4.0.0)[m[41m[m
+[32m+[m[32m    regexp_parser (2.9.2)[m[41m[m
+[32m+[m[32m    reline (0.5.9)[m[41m[m
+[32m+[m[32m      io-console (~> 0.5)[m[41m[m
+[32m+[m[32m    responders (3.1.1)[m[41m[m
+[32m+[m[32m      actionpack (>= 5.2)[m[41m[m
+[32m+[m[32m      railties (>= 5.2)[m[41m[m
+[32m+[m[32m    rexml (3.3.5)[m[41m[m
+[32m+[m[32m      strscan[m[41m[m
+[32m+[m[32m    rubocop (1.65.1)[m[41m[m
+[32m+[m[32m      json (~> 2.3)[m[41m[m
+[32m+[m[32m      language_server-protocol (>= 3.17.0)[m[41m[m
+[32m+[m[32m      parallel (~> 1.10)[m[41m[m
+[32m+[m[32m      parser (>= 3.3.0.2)[m[41m[m
+[32m+[m[32m      rainbow (>= 2.2.2, < 4.0)[m[41m[m
+[32m+[m[32m      regexp_parser (>= 2.4, < 3.0)[m[41m[m
+[32m+[m[32m      rexml (>= 3.2.5, < 4.0)[m[41m[m
+[32m+[m[32m      rubocop-ast (>= 1.31.1, < 2.0)[m[41m[m
+[32m+[m[32m      ruby-progressbar (~> 1.7)[m[41m[m
+[32m+[m[32m      unicode-display_width (>= 2.4.0, < 3.0)[m[41m[m
+[32m+[m[32m    rubocop-ast (1.32.1)[m[41m[m
+[32m+[m[32m      parser (>= 3.3.1.0)[m[41m[m
+[32m+[m[32m    ruby-progressbar (1.13.0)[m[41m[m
+[32m+[m[32m    rubyzip (2.3.2)[m[41m[m
+[32m+[m[32m    selenium-webdriver (4.10.0)[m[41m[m
+[32m+[m[32m      rexml (~> 3.2, >= 3.2.5)[m[41m[m
+[32m+[m[32m      rubyzip (>= 1.2.2, < 3.0)[m[41m[m
+[32m+[m[32m      websocket (~> 1.0)[m[41m[m
+[32m+[m[32m    sprockets (4.2.1)[m[41m[m
+[32m+[m[32m      concurrent-ruby (~> 1.0)[m[41m[m
+[32m+[m[32m      rack (>= 2.2.4, < 4)[m[41m[m
+[32m+[m[32m    sprockets-rails (3.5.2)[m[41m[m
+[32m+[m[32m      actionpack (>= 6.1)[m[41m[m
+[32m+[m[32m      activesupport (>= 6.1)[m[41m[m
+[32m+[m[32m      sprockets (>= 3.0.0)[m[41m[m
+[32m+[m[32m    stimulus-rails (1.3.4)[m[41m[m
+[32m+[m[32m      railties (>= 6.0.0)[m[41m[m
+[32m+[m[32m    stringio (3.1.1)[m[41m[m
+[32m+[m[32m    strscan (3.1.0)[m[41m[m
+[32m+[m[32m    thor (1.3.1)[m[41m[m
+[32m+[m[32m    timeout (0.4.1)[m[41m[m
+[32m+[m[32m    turbo-rails (2.0.6)[m[41m[m
+[32m+[m[32m      actionpack (>= 6.0.0)[m[41m[m
+[32m+[m[32m      activejob (>= 6.0.0)[m[41m[m
+[32m+[m[32m      railties (>= 6.0.0)[m[41m[m
+[32m+[m[32m    tzinfo (2.0.6)[m[41m[m
+[32m+[m[32m      concurrent-ruby (~> 1.0)[m[41m[m
+[32m+[m[32m    unicode-display_width (2.5.0)[m[41m[m
+[32m+[m[32m    warden (1.2.9)[m[41m[m
+[32m+[m[32m      rack (>= 2.0.9)[m[41m[m
+[32m+[m[32m    web-console (4.2.1)[m[41m[m
+[32m+[m[32m      actionview (>= 6.0.0)[m[41m[m
+[32m+[m[32m      activemodel (>= 6.0.0)[m[41m[m
+[32m+[m[32m      bindex (>= 0.4.0)[m[41m[m
+[32m+[m[32m      railties (>= 6.0.0)[m[41m[m
+[32m+[m[32m    webdrivers (5.3.1)[m[41m[m
+[32m+[m[32m      nokogiri (~> 1.6)[m[41m[m
+[32m+[m[32m      rubyzip (>= 1.3.0)[m[41m[m
+[32m+[m[32m      selenium-webdriver (~> 4.0, < 4.11)[m[41m[m
+[32m+[m[32m    websocket (1.2.11)[m[41m[m
+[32m+[m[32m    websocket-driver (0.7.6)[m[41m[m
+[32m+[m[32m      websocket-extensions (>= 0.1.0)[m[41m[m
+[32m+[m[32m    websocket-extensions (0.1.5)[m[41m[m
+[32m+[m[32m    xpath (3.2.0)[m[41m[m
+[32m+[m[32m      nokogiri (~> 1.8)[m[41m[m
+[32m+[m[32m    zeitwerk (2.6.17)[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPLATFORMS[m[41m[m
+[32m+[m[32m  x86_64-linux[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDEPENDENCIES[m[41m[m
+[32m+[m[32m  bootsnap[m[41m[m
+[32m+[m[32m  capybara[m[41m[m
+[32m+[m[32m  debug[m[41m[m
+[32m+[m[32m  devise[m[41m[m
+[32m+[m[32m  importmap-rails[m[41m[m
+[32m+[m[32m  jbuilder[m[41m[m
+[32m+[m[32m  mysql2 (~> 0.5)[m[41m[m
+[32m+[m[32m  pg[m[41m[m
+[32m+[m[32m  puma (~> 5.0)[m[41m[m
+[32m+[m[32m  rails (~> 7.0.0)[m[41m[m
+[32m+[m[32m  rubocop[m[41m[m
+[32m+[m[32m  selenium-webdriver[m[41m[m
+[32m+[m[32m  sprockets-rails[m[41m[m
+[32m+[m[32m  stimulus-rails[m[41m[m
+[32m+[m[32m  turbo-rails[m[41m[m
+[32m+[m[32m  tzinfo-data[m[41m[m
+[32m+[m[32m  web-console[m[41m[m
+[32m+[m[32m  webdrivers[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mRUBY VERSION[m[41m[m
+[32m+[m[32m   ruby 3.2.0p0[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mBUNDLED WITH[m[41m[m
+[32m+[m[32m   2.4.1[m[41m[m
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 8e87b36..e1174fa 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,92 +1,92 @@[m
+[31m-# README[m
+[31m-[m
+[31m-This README would normally document whatever steps are necessary to get the[m
+[31m-application up and running.[m
+[31m-[m
+[31m-Things you may want to cover:[m
+[31m-[m
+[31m-* Ruby version[m
+[31m-[m
+[31m-* System dependencies[m
+[31m-[m
+[31m-* Configuration[m
+[31m-[m
+[31m-* Database creation[m
+[31m-[m
+[31m-* Database initialization[m
+[31m-[m
+[31m-* How to run the test suite[m
+[31m-[m
+[31m-* Services (job queues, cache servers, search engines, etc.)[m
+[31m-[m
+[31m-* Deployment instructions[m
+[31m-[m
+[31m-* ...[m
+[31m-[m
+[31m-#　テーブル設計[m
+[31m-## users テーブル[m
+[31m-[m
+[31m-| Column             | Type    | Options                   |[m
+[31m-| ------------------ | ------  | ------------------------- |[m
+[31m-| nickname           | string  | null: false               |[m
+[31m-| email              | string  | null: false, unique: true |[m
+[31m-| encrypted_password | string  | null: false               | [m
+[31m-| last_name          | string  | null: false               |[m
+[31m-| first_name         | string  | null: false               |[m
+[31m-| last_name_kana     | string  | null: false               |[m
+[31m-| first_name_kana    | string  | null: false               |[m
+[31m-| birthday           | date    | null: false               |[m
+[31m-[m
+[31m-[m
+[31m-### Associatio[m
+[31m-- has_many  :items[m
+[31m-- has_many  :purchase_records[m
+[31m-[m
+[31m-## items テーブル[m
+[31m-[m
+[31m-| Column          |Type        |Options                          |[m
+[31m-| --------------- | ---------- | ------------------------------- |[m
+[31m-| user            | references | null: false, foreign_key: true  |[m
+[31m-| item_name       | string     | null: false                     |[m
+[31m-| price           | integer    | null: false[m
+[31m-| explanation     | text       | null: false                     |[m
+[31m-| category_id     | integer    | null: false                     |[m
+[31m-| condition_id    | integer    | null: false                     |[m
+[31m-| delivery_fee_id | integer    | null: false                     |[m
+[31m-| prefecture_id   | integer    | null: false                     |[m
+[31m-| ship_date_id    | integer    | null: false                     |[m
+[31m-[m
+[31m-[m
+[31m-### Association[m
+[31m-- belongs_to  :user[m
+[31m-- has_one     :purchase_record[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-## purchase_records テーブル[m
+[31m-[m
+[31m-| Column    | Type       | Options                        |[m
+[31m-| --------- | ---------- | ------------------------------ |[m
+[31m-| user      | references | null: false, foreign_key: true |[m
+[31m-| item      | references | null: false, foreign_key: true |[m
+[31m-[m
+[31m-### Association[m
+[31m-belongs_to  :item[m
+[31m-belongs_to  :user[m
+[31m-has_one     :sending[m
+[31m-[m
+[31m-## sendings テーブル[m
+[31m-[m
+[31m-| Column             | Type       | Options                        |[m
+[31m-| ------------------ | ---------- | ------------------------------ |[m
+[31m-| purchase_record    | references | null: false, foreign_key: true |[m
+[31m-| postal_code        | string     | null: false                    |[m
+[31m-| prefecture_id      | integer    | null: false                    |[m
+[31m-| city               | string     | null: false                    |[m
+[31m-| address            | string     | null: false                    |[m
+[31m-| building           | string     |                                |[m
+[31m-| telephone_number   | string     | null: false                    |[m
+[31m-[m
+[31m-[m
+[31m-## Association[m
+[32m+[m[32m# README[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mThis README would normally document whatever steps are necessary to get the[m[41m[m
+[32m+[m[32mapplication up and running.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mThings you may want to cover:[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* Ruby version[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* System dependencies[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* Configuration[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* Database creation[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* Database initialization[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* How to run the test suite[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* Services (job queues, cache servers, search engines, etc.)[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* Deployment instructions[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m* ...[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#　テーブル設計[m[41m[m
+[32m+[m[32m## users テーブル[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m| Column             | Type    | Options                   |[m[41m[m
+[32m+[m[32m| ------------------ | ------  | ------------------------- |[m[41m[m
+[32m+[m[32m| nickname           | string  | null: false               |[m[41m[m
+[32m+[m[32m| email              | string  | null: false, unique: true |[m[41m[m
+[32m+[m[32m| encrypted_password | string  | null: false               |[m[41m [m
+[32m+[m[32m| last_name          | string  | null: false               |[m[41m[m
+[32m+[m[32m| first_name         | string  | null: false               |[m[41m[m
+[32m+[m[32m| last_name_kana     | string  | null: false               |[m[41m[m
+[32m+[m[32m| first_name_kana    | string  | null: false               |[m[41m[m
+[32m+[m[32m| birthday           | date    | null: false               |[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### Associatio[m[41m[m
+[32m+[m[32m- has_many  :items[m[41m[m
+[32m+[m[32m- has_many  :purchase_records[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## items テーブル[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m| Column          |Type        |Options                          |[m[41m[m
+[32m+[m[32m| --------------- | ---------- | ------------------------------- |[m[41m[m
+[32m+[m[32m| user            | references | null: false, foreign_key: true  |[m[41m[m
+[32m+[m[32m| item_name       | string     | null: false                     |[m[41m[m
+[32m+[m[32m| price           | integer    | null: false[m[41m[m
+[32m+[m[32m| explanation     | text       | null: false                     |[m[41m[m
+[32m+[m[32m| category_id     | integer    | null: false                     |[m[41m[m
+[32m+[m[32m| condition_id    | integer    | null: false                     |[m[41m[m
+[32m+[m[32m| delivery_fee_id | integer    | null: false                     |[m[41m[m
+[32m+[m[32m| prefecture_id   | integer    | null: false                     |[m[41m[m
+[32m+[m[32m| ship_date_id    | integer    | null: false                     |[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### Association[m[41m[m
+[32m+[m[32m- belongs_to  :user[m[41m[m
+[32m+[m[32m- has_one     :purchase_record[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## purchase_records テーブル[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m| Column    | Type       | Options                        |[m[41m[m
+[32m+[m[32m| --------- | ---------- | ------------------------------ |[m[41m[m
+[32m+[m[32m| user      | references | null: false, foreign_key: true |[m[41m[m
+[32m+[m[32m| item      | references | null: false, foreign_key: true |[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### Association[m[41m[m
+[32m+[m[32mbelongs_to  :item[m[41m[m
+[32m+[m[32mbelongs_to  :user[m[41m[m
+[32m+[m[32mhas_one     :sending[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## sendings テーブル[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m| Column             | Type       | Options                        |[m[41m[m
+[32m+[m[32m| ------------------ | ---------- | ------------------------------ |[m[41m[m
+[32m+[m[32m| purchase_record    | references | null: false, foreign_key: true |[m[41m[m
+[32m+[m[32m| postal_code        | string     | null: false                    |[m[41m[m
+[32m+[m[32m| prefecture_id      | integer    | null: false                    |[m[41m[m
+[32m+[m[32m| city               | string     | null: false                    |[m[41m[m
+[32m+[m[32m| address            | string     | null: false                    |[m[41m[m
+[32m+[m[32m| building           | string     |                                |[m[41m[m
+[32m+[m[32m| telephone_number   | string     | null: false                    |[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## Association[m[41m[m
+ belongs_to  :purchase_record[m
+\ No newline at end of file[m
+[1mdiff --git a/Rakefile b/Rakefile[m
+[1mindex 9a5ea73..e85f913 100644[m
+[1m--- a/Rakefile[m
+[1m+++ b/Rakefile[m
+[36m@@ -1,6 +1,6 @@[m
+ # Add your own tasks in files placed in lib/tasks ending in .rake,[m
+ # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.[m
+ [m
+[31m-require_relative "config/application"[m
+[32m+[m[32mrequire_relative 'config/application'[m
+ [m
+ Rails.application.load_tasks[m
+[1mdiff --git "a/app/assets/images/app-store.svg\357\200\272Zone.Identifier" "b/app/assets/images/app-store.svg\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/card-amex.gif\357\200\272Zone.Identifier" "b/app/assets/images/card-amex.gif\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/card-jcb.gif\357\200\272Zone.Identifier" "b/app/assets/images/card-jcb.gif\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/card-mastercard.gif\357\200\272Zone.Identifier" "b/app/assets/images/card-mastercard.gif\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/card-visa.gif\357\200\272Zone.Identifier" "b/app/assets/images/card-visa.gif\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/comment.png\357\200\272Zone.Identifier" "b/app/assets/images/comment.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/flag.png\357\200\272Zone.Identifier" "b/app/assets/images/flag.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-footer.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-footer.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-header01.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-header01.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-header02.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-header02.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-intro01.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-intro01.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-intro02.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-intro02.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-intro03.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-intro03.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-intro04.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-intro04.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-intro05.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-intro05.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-intro06.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-intro06.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-logo-color.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-logo-color.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/furima-logo-white.png\357\200\272Zone.Identifier" "b/app/assets/images/furima-logo-white.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/google-play.png\357\200\272Zone.Identifier" "b/app/assets/images/google-play.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/icon_camera.png\357\200\272Zone.Identifier" "b/app/assets/images/icon_camera.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/item-sample.png\357\200\272Zone.Identifier" "b/app/assets/images/item-sample.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/search.png\357\200\272Zone.Identifier" "b/app/assets/images/search.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/images/star.png\357\200\272Zone.Identifier" "b/app/assets/images/star.png\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/.DS_Store\357\200\272Zone.Identifier" "b/app/assets/stylesheets/.DS_Store\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/application.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/application.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/items/.DS_Store\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/.DS_Store\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/application.css b/app/assets/stylesheets/items/application.css[m
+[1mindex d05ea0f..f8f67f1 100644[m
+[1m--- a/app/assets/stylesheets/items/application.css[m
+[1m+++ b/app/assets/stylesheets/items/application.css[m
+[36m@@ -1,15 +1,15 @@[m
+[31m-/*[m
+[31m- * This is a manifest file that'll be compiled into application.css, which will include all the files[m
+[31m- * listed below.[m
+[31m- *[m
+[31m- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's[m
+[31m- * vendor/assets/stylesheets directory can be referenced here using a relative path.[m
+[31m- *[m
+[31m- * You're free to add application-wide styles to this file and they'll appear at the bottom of the[m
+[31m- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS[m
+[31m- * files in this directory. Styles in this file should be added after the last require_* statement.[m
+[31m- * It is generally better to create a new file per style scope.[m
+[31m- *[m
+[31m- *= require_tree .[m
+[31m- *= require_self[m
+[31m- */[m
+[32m+[m[32m/*[m[41m[m
+[32m+[m[32m * This is a manifest file that'll be compiled into application.css, which will include all the files[m[41m[m
+[32m+[m[32m * listed below.[m[41m[m
+[32m+[m[32m *[m[41m[m
+[32m+[m[32m * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's[m[41m[m
+[32m+[m[32m * vendor/assets/stylesheets directory can be referenced here using a relative path.[m[41m[m
+[32m+[m[32m *[m[41m[m
+[32m+[m[32m * You're free to add application-wide styles to this file and they'll appear at the bottom of the[m[41m[m
+[32m+[m[32m * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS[m[41m[m
+[32m+[m[32m * files in this directory. Styles in this file should be added after the last require_* statement.[m[41m[m
+[32m+[m[32m * It is generally better to create a new file per style scope.[m[41m[m
+[32m+[m[32m *[m[41m[m
+[32m+[m[32m *= require_tree .[m[41m[m
+[32m+[m[32m *= require_self[m[41m[m
+[32m+[m[32m */[m[41m[m
+[1mdiff --git "a/app/assets/stylesheets/items/application.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/application.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/items/exhibit-btn.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/exhibit-btn.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/items/index.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/index.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/items/exhibit-btn.css b/app/assets/stylesheets/items/items/exhibit-btn.css[m
+[1mindex 770ac74..6723a0f 100644[m
+[1m--- a/app/assets/stylesheets/items/items/exhibit-btn.css[m
+[1m+++ b/app/assets/stylesheets/items/items/exhibit-btn.css[m
+[36m@@ -1,22 +1,22 @@[m
+[31m-.purchase-btn {[m
+[31m-  width: 120px;[m
+[31m-  background: #3ccace;[m
+[31m-  text-align: center;[m
+[31m-  border-radius: 4%;[m
+[31m-  bottom: 32px;[m
+[31m-  right: 32px;[m
+[31m-  position: fixed;[m
+[31m-  padding: 15px;[m
+[31m-}[m
+[31m-[m
+[31m-.purchase-btn-text {[m
+[31m-  color: #fff;[m
+[31m-  display: block;[m
+[31m-  font-size: 18px;[m
+[31m-  text-decoration: none;[m
+[31m-  margin-bottom: 5px;[m
+[31m-}[m
+[31m-[m
+[31m-.purchase-btn-icon {[m
+[31m-  width: 60%;[m
+[31m-}[m
+[32m+[m[32m.purchase-btn {[m[41m[m
+[32m+[m[32m  width: 120px;[m[41m[m
+[32m+[m[32m  background: #3ccace;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  border-radius: 4%;[m[41m[m
+[32m+[m[32m  bottom: 32px;[m[41m[m
+[32m+[m[32m  right: 32px;[m[41m[m
+[32m+[m[32m  position: fixed;[m[41m[m
+[32m+[m[32m  padding: 15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.purchase-btn-text {[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  display: block;[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  margin-bottom: 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.purchase-btn-icon {[m[41m[m
+[32m+[m[32m  width: 60%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[1mdiff --git "a/app/assets/stylesheets/items/items/exhibit-btn.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/items/exhibit-btn.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/items/index.css b/app/assets/stylesheets/items/items/index.css[m
+[1mindex 368a627..cfae504 100644[m
+[1m--- a/app/assets/stylesheets/items/items/index.css[m
+[1m+++ b/app/assets/stylesheets/items/items/index.css[m
+[36m@@ -1,311 +1,311 @@[m
+[31m-a {[m
+[31m-  text-decoration: none;[m
+[31m-}[m
+[31m-[m
+[31m-.main {[m
+[31m-  background: #f8f8f8;[m
+[31m-}[m
+[31m-[m
+[31m-/* 画面上部の「人生を変えるフリマアプリ」帯部分 */[m
+[31m-.title-contents {[m
+[31m-  width: 100vw;[m
+[31m-  background-image: url('furima-header01.png');[m
+[31m-  background-size: cover;[m
+[31m-  background-repeat: no-repeat;[m
+[31m-  background-position: top center;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: flex-start;[m
+[31m-  justify-content: center;[m
+[31m-  padding: 5vh 15vw;[m
+[31m-  color: #fff;[m
+[31m-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);[m
+[31m-}[m
+[31m-[m
+[31m-.service-title {[m
+[31m-  font-size: 8vh;[m
+[31m-}[m
+[31m-[m
+[31m-.service-explain {[m
+[31m-  font-size: 2.5vh;[m
+[31m-  line-height: 40px;[m
+[31m-}[m
+[31m-[m
+[31m-.store-btn {[m
+[31m-  display: flex;[m
+[31m-  margin-top: 24px;[m
+[31m-}[m
+[31m-[m
+[31m-.apple-btn {[m
+[31m-  margin-right: 1vw;[m
+[31m-  height: 9vh;[m
+[31m-}[m
+[31m-[m
+[31m-.google-btn {[m
+[31m-  height: 9vh;[m
+[31m-}[m
+[31m-[m
+[31m-/* //画面上部の「人生を変えるフリマアプリ」帯部分 */[m
+[31m-[m
+[31m-/* FURIMAが選ばれる3つの理由部分 */[m
+[31m-.select-reason-contents {[m
+[31m-  padding: 5vh 15vw;[m
+[31m-}[m
+[31m-[m
+[31m-.select-reason-contents>.title {[m
+[31m-  text-align: center;[m
+[31m-  font-size: 3.5vh;[m
+[31m-  font-weight: bold;[m
+[31m-  margin-bottom: 5vh;[m
+[31m-  position: relative;[m
+[31m-}[m
+[31m-[m
+[31m-.select-reason-contents>.title::after {[m
+[31m-  content: '';[m
+[31m-  width: 70px;[m
+[31m-  height: 4px;[m
+[31m-  background-color: #3ccace;[m
+[31m-  position: absolute;[m
+[31m-  bottom: -10px;[m
+[31m-  left: 50%;[m
+[31m-  transform: translateX(-50%);[m
+[31m-}[m
+[31m-[m
+[31m-.reason-lists {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  flex-wrap: wrap;[m
+[31m-}[m
+[31m-[m
+[31m-.reason-lists>.list {[m
+[31m-  width: 33vh;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-  position: relative;[m
+[31m-}[m
+[31m-[m
+[31m-.list-pict {[m
+[31m-  margin-bottom: 20px;[m
+[31m-  width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-.reason-list-number {[m
+[31m-  position: absolute;[m
+[31m-  top: 0;[m
+[31m-  left: 0;[m
+[31m-  width: 60px;[m
+[31m-  height: 60px;[m
+[31m-  font-size: 30px;[m
+[31m-  text-align: center;[m
+[31m-  line-height: 60px;[m
+[31m-  background-color: #3ccace;[m
+[31m-  color: #fff;[m
+[31m-}[m
+[31m-[m
+[31m-.reason-list-text {[m
+[31m-  font-weight: bold;[m
+[31m-  font-size: 24px;[m
+[31m-  line-height: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-.reason-list-blue-text {[m
+[31m-  color: #3ccace;[m
+[31m-}[m
+[31m-[m
+[31m-.reason-list-description {[m
+[31m-  font-size: 18px;[m
+[31m-  margin-top: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-/* //FURIMAが選ばれる3つの理由部分 */[m
+[31m-[m
+[31m-[m
+[31m-/* 画面中央の「会員数日本一位」帯部分*/[m
+[31m-.ad-contents {[m
+[31m-  width: 100vw;[m
+[31m-  background-image: url('furima-header02.png');[m
+[31m-  background-size: cover;[m
+[31m-  background-repeat: no-repeat;[m
+[31m-  background-position: top center;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: flex-start;[m
+[31m-  justify-content: center;[m
+[31m-  padding: 5vh 15vw;[m
+[31m-  color: #fff;[m
+[31m-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);[m
+[31m-}[m
+[31m-[m
+[31m-.ad-title {[m
+[31m-  font-size: 5vh;[m
+[31m-  margin-bottom: 2vh;[m
+[31m-}[m
+[31m-[m
+[31m-.ad-explain {[m
+[31m-  font-size: 2.5vh;[m
+[31m-  line-height: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.store-btn {[m
+[31m-  display: flex;[m
+[31m-  margin-top: 24px;[m
+[31m-}[m
+[31m-[m
+[31m-.apple-btn {[m
+[31m-  margin-right: 1vw;[m
+[31m-  height: 9vh;[m
+[31m-}[m
+[31m-[m
+[31m-.google-btn {[m
+[31m-  height: 9vh;[m
+[31m-}[m
+[31m-[m
+[31m-/* //画面中央の「会員数日本一位」帯部分 */[m
+[31m-[m
+[31m-/* FURIMAの特徴 */[m
+[31m-.feature-contents {[m
+[31m-  padding: 5vh 15vw;[m
+[31m-}[m
+[31m-[m
+[31m-.feature-contents>.title {[m
+[31m-  text-align: center;[m
+[31m-  font-size: 3.5vh;[m
+[31m-  font-weight: bold;[m
+[31m-  margin-bottom: 5vh;[m
+[31m-  position: relative;[m
+[31m-}[m
+[31m-[m
+[31m-.feature-contents>.title::after {[m
+[31m-  content: '';[m
+[31m-  width: 70px;[m
+[31m-  height: 4px;[m
+[31m-  background-color: #3ccace;[m
+[31m-  position: absolute;[m
+[31m-  bottom: -10px;[m
+[31m-  left: 50%;[m
+[31m-  transform: translateX(-50%);[m
+[31m-}[m
+[31m-[m
+[31m-.feature-lists {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  flex-wrap: wrap;[m
+[31m-}[m
+[31m-[m
+[31m-.feature-lists>.list {[m
+[31m-  width: 33vh;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-.feature-list-text {[m
+[31m-  font-weight: bold;[m
+[31m-  font-size: 22px;[m
+[31m-  line-height: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-.feature-list-description {[m
+[31m-  font-size: 18px;[m
+[31m-  margin-top: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-/* //FURIMAの特徴 */[m
+[31m-[m
+[31m-/* 商品一覧 */[m
+[31m-[m
+[31m-.item-contents {[m
+[31m-  background-color: #FFF;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-  padding: 10vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.item-contents>.title {[m
+[31m-  font-size: 5vh;[m
+[31m-  line-height: 1.4;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.item-contents>.subtitle {[m
+[31m-  font-size: 3vh;[m
+[31m-  margin: 1vh 0;[m
+[31m-  text-decoration: none;[m
+[31m-  color: #3ccace;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.item-lists {[m
+[31m-  width: 100vw;[m
+[31m-  display: flex;[m
+[31m-  flex-wrap: wrap;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-.item-lists>.list {[m
+[31m-  width: 37vh;[m
+[31m-  padding: 1vw;[m
+[31m-  background-color: #FFF;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.item-img-content {[m
+[31m-  position: relative;[m
+[31m-}[m
+[31m-[m
+[31m-.item-img {[m
+[31m-  width: 33vh;[m
+[31m-  height: 33vh;[m
+[31m-}[m
+[31m-[m
+[31m-.sold-out {[m
+[31m-  position: absolute;[m
+[31m-  top: 40%;[m
+[31m-  width: 100%;[m
+[31m-  text-align: center;[m
+[31m-  background-color: crimson;[m
+[31m-  transform: skewY(-10deg);[m
+[31m-}[m
+[31m-[m
+[31m-.sold-out>span {[m
+[31m-  color: #FFF;[m
+[31m-  font-size: 45px;[m
+[31m-  font: bold;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.item-info {[m
+[31m-  background-color: #FFF;[m
+[31m-  color: black;[m
+[31m-  padding: 1vw;[m
+[31m-}[m
+[31m-[m
+[31m-.item-name {[m
+[31m-  font-size: 2.5vh;[m
+[31m-}[m
+[31m-[m
+[31m-.item-price {[m
+[31m-  font-size: 1.5vh;[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.star-btn {[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-.star-icon {[m
+[31m-  height: 2vh;[m
+[31m-  width: 2vh;[m
+[31m-  margin-right: 0.5vw;[m
+[31m-}[m
+[31m-[m
+[31m-.star-count {[m
+[31m-  font-size: 2vh;[m
+[31m-}[m
+[31m-[m
+[32m+[m[32ma {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.main {[m[41m[m
+[32m+[m[32m  background: #f8f8f8;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 画面上部の「人生を変えるフリマアプリ」帯部分 */[m[41m[m
+[32m+[m[32m.title-contents {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  background-image: url('furima-header01.png');[m[41m[m
+[32m+[m[32m  background-size: cover;[m[41m[m
+[32m+[m[32m  background-repeat: no-repeat;[m[41m[m
+[32m+[m[32m  background-position: top center;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: flex-start;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  padding: 5vh 15vw;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.service-title {[m[41m[m
+[32m+[m[32m  font-size: 8vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.service-explain {[m[41m[m
+[32m+[m[32m  font-size: 2.5vh;[m[41m[m
+[32m+[m[32m  line-height: 40px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.store-btn {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  margin-top: 24px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.apple-btn {[m[41m[m
+[32m+[m[32m  margin-right: 1vw;[m[41m[m
+[32m+[m[32m  height: 9vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.google-btn {[m[41m[m
+[32m+[m[32m  height: 9vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* //画面上部の「人生を変えるフリマアプリ」帯部分 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* FURIMAが選ばれる3つの理由部分 */[m[41m[m
+[32m+[m[32m.select-reason-contents {[m[41m[m
+[32m+[m[32m  padding: 5vh 15vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.select-reason-contents>.title {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  font-size: 3.5vh;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  margin-bottom: 5vh;[m[41m[m
+[32m+[m[32m  position: relative;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.select-reason-contents>.title::after {[m[41m[m
+[32m+[m[32m  content: '';[m[41m[m
+[32m+[m[32m  width: 70px;[m[41m[m
+[32m+[m[32m  height: 4px;[m[41m[m
+[32m+[m[32m  background-color: #3ccace;[m[41m[m
+[32m+[m[32m  position: absolute;[m[41m[m
+[32m+[m[32m  bottom: -10px;[m[41m[m
+[32m+[m[32m  left: 50%;[m[41m[m
+[32m+[m[32m  transform: translateX(-50%);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.reason-lists {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.reason-lists>.list {[m[41m[m
+[32m+[m[32m  width: 33vh;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  position: relative;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.list-pict {[m[41m[m
+[32m+[m[32m  margin-bottom: 20px;[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.reason-list-number {[m[41m[m
+[32m+[m[32m  position: absolute;[m[41m[m
+[32m+[m[32m  top: 0;[m[41m[m
+[32m+[m[32m  left: 0;[m[41m[m
+[32m+[m[32m  width: 60px;[m[41m[m
+[32m+[m[32m  height: 60px;[m[41m[m
+[32m+[m[32m  font-size: 30px;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  line-height: 60px;[m[41m[m
+[32m+[m[32m  background-color: #3ccace;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.reason-list-text {[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  font-size: 24px;[m[41m[m
+[32m+[m[32m  line-height: 50px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.reason-list-blue-text {[m[41m[m
+[32m+[m[32m  color: #3ccace;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.reason-list-description {[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  margin-top: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* //FURIMAが選ばれる3つの理由部分 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 画面中央の「会員数日本一位」帯部分*/[m[41m[m
+[32m+[m[32m.ad-contents {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  background-image: url('furima-header02.png');[m[41m[m
+[32m+[m[32m  background-size: cover;[m[41m[m
+[32m+[m[32m  background-repeat: no-repeat;[m[41m[m
+[32m+[m[32m  background-position: top center;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: flex-start;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  padding: 5vh 15vw;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.ad-title {[m[41m[m
+[32m+[m[32m  font-size: 5vh;[m[41m[m
+[32m+[m[32m  margin-bottom: 2vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.ad-explain {[m[41m[m
+[32m+[m[32m  font-size: 2.5vh;[m[41m[m
+[32m+[m[32m  line-height: 30px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.store-btn {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  margin-top: 24px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.apple-btn {[m[41m[m
+[32m+[m[32m  margin-right: 1vw;[m[41m[m
+[32m+[m[32m  height: 9vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.google-btn {[m[41m[m
+[32m+[m[32m  height: 9vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* //画面中央の「会員数日本一位」帯部分 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* FURIMAの特徴 */[m[41m[m
+[32m+[m[32m.feature-contents {[m[41m[m
+[32m+[m[32m  padding: 5vh 15vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.feature-contents>.title {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  font-size: 3.5vh;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  margin-bottom: 5vh;[m[41m[m
+[32m+[m[32m  position: relative;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.feature-contents>.title::after {[m[41m[m
+[32m+[m[32m  content: '';[m[41m[m
+[32m+[m[32m  width: 70px;[m[41m[m
+[32m+[m[32m  height: 4px;[m[41m[m
+[32m+[m[32m  background-color: #3ccace;[m[41m[m
+[32m+[m[32m  position: absolute;[m[41m[m
+[32m+[m[32m  bottom: -10px;[m[41m[m
+[32m+[m[32m  left: 50%;[m[41m[m
+[32m+[m[32m  transform: translateX(-50%);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.feature-lists {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.feature-lists>.list {[m[41m[m
+[32m+[m[32m  width: 33vh;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.feature-list-text {[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  font-size: 22px;[m[41m[m
+[32m+[m[32m  line-height: 50px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.feature-list-description {[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  margin-top: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* //FURIMAの特徴 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 商品一覧 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-contents {[m[41m[m
+[32m+[m[32m  background-color: #FFF;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  padding: 10vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-contents>.title {[m[41m[m
+[32m+[m[32m  font-size: 5vh;[m[41m[m
+[32m+[m[32m  line-height: 1.4;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-contents>.subtitle {[m[41m[m
+[32m+[m[32m  font-size: 3vh;[m[41m[m
+[32m+[m[32m  margin: 1vh 0;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  color: #3ccace;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-lists {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-lists>.list {[m[41m[m
+[32m+[m[32m  width: 37vh;[m[41m[m
+[32m+[m[32m  padding: 1vw;[m[41m[m
+[32m+[m[32m  background-color: #FFF;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-img-content {[m[41m[m
+[32m+[m[32m  position: relative;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-img {[m[41m[m
+[32m+[m[32m  width: 33vh;[m[41m[m
+[32m+[m[32m  height: 33vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.sold-out {[m[41m[m
+[32m+[m[32m  position: absolute;[m[41m[m
+[32m+[m[32m  top: 40%;[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  background-color: crimson;[m[41m[m
+[32m+[m[32m  transform: skewY(-10deg);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.sold-out>span {[m[41m[m
+[32m+[m[32m  color: #FFF;[m[41m[m
+[32m+[m[32m  font-size: 45px;[m[41m[m
+[32m+[m[32m  font: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-info {[m[41m[m
+[32m+[m[32m  background-color: #FFF;[m[41m[m
+[32m+[m[32m  color: black;[m[41m[m
+[32m+[m[32m  padding: 1vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-name {[m[41m[m
+[32m+[m[32m  font-size: 2.5vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-price {[m[41m[m
+[32m+[m[32m  font-size: 1.5vh;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.star-btn {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.star-icon {[m[41m[m
+[32m+[m[32m  height: 2vh;[m[41m[m
+[32m+[m[32m  width: 2vh;[m[41m[m
+[32m+[m[32m  margin-right: 0.5vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.star-count {[m[41m[m
+[32m+[m[32m  font-size: 2vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+ /* //商品一覧 */[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/items/index.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/items/index.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/items/new.css b/app/assets/stylesheets/items/items/new.css[m
+[1mindex 5aa6ed3..2b7b379 100644[m
+[1m--- a/app/assets/stylesheets/items/items/new.css[m
+[1m+++ b/app/assets/stylesheets/items/items/new.css[m
+[36m@@ -1,229 +1,229 @@[m
+[31m-/* border-bottom: 1px solid #eee; */[m
+[31m-[m
+[31m-[m
+[31m-.items-sell-contents {[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;[m
+[31m-  font-size: 14px;[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-  flex-direction: column;[m
+[31m-  min-width: 500px;[m
+[31m-}[m
+[31m-[m
+[31m-.items-sell-header {[m
+[31m-  padding: 5vh 0;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.items-sell-main {[m
+[31m-  background-color: #FFF;[m
+[31m-  width: 70vw;[m
+[31m-  min-width: 450px;[m
+[31m-  padding: 10vh 15vw;[m
+[31m-}[m
+[31m-[m
+[31m-.items-sell-title {[m
+[31m-  font-size: 22px;[m
+[31m-  font-weight: bold;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-/* 共通 */[m
+[31m-.indispensable {[m
+[31m-  background: #ea352d;[m
+[31m-  margin-left: 8px;[m
+[31m-  padding: 3px;[m
+[31m-  border-radius: 2px;[m
+[31m-  color: #fff;[m
+[31m-  font-size: 12px;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.weight-bold-text {[m
+[31m-  font-weight: bold;[m
+[31m-  min-width: 170px;[m
+[31m-  margin-bottom: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.select-box {[m
+[31m-  height: 30px;[m
+[31m-  width: 100%;[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  padding-left: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.question {[m
+[31m-  width: 20px;[m
+[31m-  height: 20px;[m
+[31m-  border-radius: 10px;[m
+[31m-  background: #0099e8;[m
+[31m-  color: #FFF;[m
+[31m-  font-size: 13px;[m
+[31m-  text-align: center;[m
+[31m-  line-height: 20px;[m
+[31m-  text-decoration: none;[m
+[31m-  margin-left: 5px;[m
+[31m-}[m
+[31m-[m
+[31m-.question-text {[m
+[31m-  display: flex;[m
+[31m-}[m
+[31m-[m
+[31m-/* /共通 */[m
+[31m-[m
+[31m-/* 商品画像 */[m
+[31m-.img-upload {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  flex-wrap: wrap;[m
+[31m-  padding: 2vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.click-upload {[m
+[31m-  margin: 15px 0;[m
+[31m-  min-width: 250px;[m
+[31m-}[m
+[31m-[m
+[31m-.click-upload>p {[m
+[31m-  margin-bottom: 15px;[m
+[31m-}[m
+[31m-[m
+[31m-/* /商品画像 */[m
+[31m-[m
+[31m-/* 商品名と商品説明 */[m
+[31m-.new-items {[m
+[31m-  padding: 2vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.items-text {[m
+[31m-  width: 100%;[m
+[31m-  padding: 16px 16px 8px;[m
+[31m-  border-radius: 4px;[m
+[31m-  border: 1px solid #ccc;[m
+[31m-  font-size: 16px;[m
+[31m-  resize: none;[m
+[31m-}[m
+[31m-[m
+[31m-.items-explain {[m
+[31m-  margin-top: 2vh;[m
+[31m-}[m
+[31m-[m
+[31m-/* /商品名と商品説明 */[m
+[31m-[m
+[31m-/* 商品の詳細など */[m
+[31m-.items-detail {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  padding: 2vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.items-detail>.form {[m
+[31m-  width: 300px;[m
+[31m-  padding: 2vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.select-box {[m
+[31m-  margin: 2vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-/* /商品の詳細など */[m
+[31m-[m
+[31m-/* 販売価格 */[m
+[31m-.sell-price {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  flex-wrap: wrap;[m
+[31m-}[m
+[31m-[m
+[31m-.price-content {[m
+[31m-  width: 300px;[m
+[31m-  border-bottom: 1px solid #ccc;[m
+[31m-  padding: 10px;[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-  justify-content: space-between;[m
+[31m-}[m
+[31m-[m
+[31m-.price-text {[m
+[31m-  /* min-width: 170px; */[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-.sell-yen {[m
+[31m-  font-size: 18px;[m
+[31m-}[m
+[31m-[m
+[31m-.price-input {[m
+[31m-  height: 30px;[m
+[31m-  text-align: right;[m
+[31m-  padding-right: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-/* /販売価格 */[m
+[31m-[m
+[31m-/* 注意書き */[m
+[31m-.caution {[m
+[31m-  padding: 5vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.sentence>a {[m
+[31m-  color: #0099e8;[m
+[31m-  text-decoration: none;[m
+[31m-}[m
+[31m-[m
+[31m-/* /注意書き */[m
+[31m-[m
+[31m-/* 下部ボタン */[m
+[31m-.sell-btn-contents {[m
+[31m-  width: 100%;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.sell-btn {[m
+[31m-  background: #ea352d;[m
+[31m-  border: 1px solid #ea352d;[m
+[31m-  color: #fff;[m
+[31m-  width: 100%;[m
+[31m-  height: 50px;[m
+[31m-  font-size: 14px;[m
+[31m-  margin-bottom: 4vh;[m
+[31m-}[m
+[31m-[m
+[31m-.back-btn {[m
+[31m-  background: #aaa;[m
+[31m-  border: 1px solid #aaa;[m
+[31m-  color: #fff;[m
+[31m-  padding: 15px 35%;[m
+[31m-  text-decoration: none;[m
+[31m-}[m
+[31m-[m
+[31m-/* /下部ボタン */[m
+[31m-[m
+[31m-.items-sell-footer {[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  width: 60vw;[m
+[31m-  padding: 3ch 0;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.items-sell-footer>.menu {[m
+[31m-  display: flex;[m
+[31m-  flex-wrap: wrap;[m
+[31m-  justify-content: center;[m
+[31m-  margin: 3vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.menu>li>a {[m
+[31m-  color: black;[m
+[31m-  font-size: 12px;[m
+[31m-  margin: 2vw;[m
+[31m-}[m
+[31m-[m
+[31m-.inc {[m
+[31m-  font-size: 13px;[m
+[32m+[m[32m/* border-bottom: 1px solid #eee; */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-sell-contents {[m[41m[m
+[32m+[m[32m  background-color: #f5f5f5;[m[41m[m
+[32m+[m[32m  font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  min-width: 500px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-sell-header {[m[41m[m
+[32m+[m[32m  padding: 5vh 0;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-sell-main {[m[41m[m
+[32m+[m[32m  background-color: #FFF;[m[41m[m
+[32m+[m[32m  width: 70vw;[m[41m[m
+[32m+[m[32m  min-width: 450px;[m[41m[m
+[32m+[m[32m  padding: 10vh 15vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-sell-title {[m[41m[m
+[32m+[m[32m  font-size: 22px;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 共通 */[m[41m[m
+[32m+[m[32m.indispensable {[m[41m[m
+[32m+[m[32m  background: #ea352d;[m[41m[m
+[32m+[m[32m  margin-left: 8px;[m[41m[m
+[32m+[m[32m  padding: 3px;[m[41m[m
+[32m+[m[32m  border-radius: 2px;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  font-size: 12px;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.weight-bold-text {[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  min-width: 170px;[m[41m[m
+[32m+[m[32m  margin-bottom: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.select-box {[m[41m[m
+[32m+[m[32m  height: 30px;[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  background-color: #f5f5f5;[m[41m[m
+[32m+[m[32m  padding-left: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.question {[m[41m[m
+[32m+[m[32m  width: 20px;[m[41m[m
+[32m+[m[32m  height: 20px;[m[41m[m
+[32m+[m[32m  border-radius: 10px;[m[41m[m
+[32m+[m[32m  background: #0099e8;[m[41m[m
+[32m+[m[32m  color: #FFF;[m[41m[m
+[32m+[m[32m  font-size: 13px;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  line-height: 20px;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  margin-left: 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.question-text {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /共通 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 商品画像 */[m[41m[m
+[32m+[m[32m.img-upload {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m  padding: 2vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.click-upload {[m[41m[m
+[32m+[m[32m  margin: 15px 0;[m[41m[m
+[32m+[m[32m  min-width: 250px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.click-upload>p {[m[41m[m
+[32m+[m[32m  margin-bottom: 15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /商品画像 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 商品名と商品説明 */[m[41m[m
+[32m+[m[32m.new-items {[m[41m[m
+[32m+[m[32m  padding: 2vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-text {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  padding: 16px 16px 8px;[m[41m[m
+[32m+[m[32m  border-radius: 4px;[m[41m[m
+[32m+[m[32m  border: 1px solid #ccc;[m[41m[m
+[32m+[m[32m  font-size: 16px;[m[41m[m
+[32m+[m[32m  resize: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-explain {[m[41m[m
+[32m+[m[32m  margin-top: 2vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /商品名と商品説明 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 商品の詳細など */[m[41m[m
+[32m+[m[32m.items-detail {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  padding: 2vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-detail>.form {[m[41m[m
+[32m+[m[32m  width: 300px;[m[41m[m
+[32m+[m[32m  padding: 2vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.select-box {[m[41m[m
+[32m+[m[32m  margin: 2vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /商品の詳細など */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 販売価格 */[m[41m[m
+[32m+[m[32m.sell-price {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.price-content {[m[41m[m
+[32m+[m[32m  width: 300px;[m[41m[m
+[32m+[m[32m  border-bottom: 1px solid #ccc;[m[41m[m
+[32m+[m[32m  padding: 10px;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.price-text {[m[41m[m
+[32m+[m[32m  /* min-width: 170px; */[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.sell-yen {[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.price-input {[m[41m[m
+[32m+[m[32m  height: 30px;[m[41m[m
+[32m+[m[32m  text-align: right;[m[41m[m
+[32m+[m[32m  padding-right: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /販売価格 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 注意書き */[m[41m[m
+[32m+[m[32m.caution {[m[41m[m
+[32m+[m[32m  padding: 5vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.sentence>a {[m[41m[m
+[32m+[m[32m  color: #0099e8;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /注意書き */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 下部ボタン */[m[41m[m
+[32m+[m[32m.sell-btn-contents {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.sell-btn {[m[41m[m
+[32m+[m[32m  background: #ea352d;[m[41m[m
+[32m+[m[32m  border: 1px solid #ea352d;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  height: 50px;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m  margin-bottom: 4vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.back-btn {[m[41m[m
+[32m+[m[32m  background: #aaa;[m[41m[m
+[32m+[m[32m  border: 1px solid #aaa;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  padding: 15px 35%;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /下部ボタン */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-sell-footer {[m[41m[m
+[32m+[m[32m  background-color: #f5f5f5;[m[41m[m
+[32m+[m[32m  width: 60vw;[m[41m[m
+[32m+[m[32m  padding: 3ch 0;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.items-sell-footer>.menu {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  margin: 3vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.menu>li>a {[m[41m[m
+[32m+[m[32m  color: black;[m[41m[m
+[32m+[m[32m  font-size: 12px;[m[41m[m
+[32m+[m[32m  margin: 2vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.inc {[m[41m[m
+[32m+[m[32m  font-size: 13px;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/items/new.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/items/new.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/items/show.css b/app/assets/stylesheets/items/items/show.css[m
+[1mindex 13925d6..a1f0a76 100644[m
+[1m--- a/app/assets/stylesheets/items/items/show.css[m
+[1m+++ b/app/assets/stylesheets/items/items/show.css[m
+[36m@@ -1,207 +1,207 @@[m
+[31m-/* 商品の概要 */[m
+[31m-[m
+[31m-.item-show {[m
+[31m-  background-color: #f8f8f8;[m
+[31m-  width: 100vw;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-  padding: 5vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.item-box {[m
+[31m-  background-color: #FFF;[m
+[31m-  width: 70vw;[m
+[31m-  min-width: 1200px;[m
+[31m-  padding: 10vh 15vw;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-.item-box>.name {[m
+[31m-  text-align: center;[m
+[31m-  font-weight: bold;[m
+[31m-  font-size: 25px;[m
+[31m-}[m
+[31m-[m
+[31m-.item-box-img {[m
+[31m-  height: 50vh;[m
+[31m-  width: 60vw;[m
+[31m-  min-height: 500px;[m
+[31m-  background-color: rgb(205, 202, 202);[m
+[31m-  object-fit: contain;[m
+[31m-}[m
+[31m-[m
+[31m-.item-price-box {[m
+[31m-  margin: 25px 0px;[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-  flex-direction: column;[m
+[31m-}[m
+[31m-[m
+[31m-.item-price-box>.item-price {[m
+[31m-  font-size: 4vh;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.item-price-box>.item-postage {[m
+[31m-  font-size: 16px;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.item-red-btn {[m
+[31m-  text-align: center;[m
+[31m-  background-color: #ea352d;[m
+[31m-  font-size: 24px;[m
+[31m-  font-weight: bold;[m
+[31m-  color: #FFF;[m
+[31m-  margin: 20px 0px;[m
+[31m-  padding: 2vh 10vw;[m
+[31m-}[m
+[31m-[m
+[31m-.or-text {[m
+[31m-  font-size: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.item-destroy {[m
+[31m-  background-color: lightgray;[m
+[31m-  text-align: center;[m
+[31m-  font-size: 24px;[m
+[31m-  color: black;[m
+[31m-  margin: 20px 0px;[m
+[31m-  padding: 2vh 10vw;[m
+[31m-}[m
+[31m-[m
+[31m-.item-explain-box {[m
+[31m-  font-size: 18px;[m
+[31m-  margin: 40px 0px;[m
+[31m-  overflow-wrap: anywhere;[m
+[31m-}[m
+[31m-[m
+[31m-.detail-table {[m
+[31m-  margin-bottom: 30px;[m
+[31m-  width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-.detail-item {[m
+[31m-  width: 20%;[m
+[31m-  background-color: #eee;[m
+[31m-  border: 1px solid #dedede;[m
+[31m-  font-size: 14px;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.detail-value {[m
+[31m-  width: 80%;[m
+[31m-  padding: 20px;[m
+[31m-  border: 1px solid #dedede;[m
+[31m-  font-size: 14px;[m
+[31m-}[m
+[31m-[m
+[31m-.option {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  position: relative;[m
+[31m-}[m
+[31m-[m
+[31m-.favorite-btn {[m
+[31m-  border-radius: 40px;[m
+[31m-  width: 15vw;[m
+[31m-  min-width: 200px;[m
+[31m-  color: rgb(249, 75, 0);[m
+[31m-  border: 2px solid #ffb340;[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-  align-items: center;[m
+[31m-  margin-right: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.favorite-star-icon {[m
+[31m-  margin-right: 5px;[m
+[31m-}[m
+[31m-[m
+[31m-.report-btn {[m
+[31m-  border-radius: 40px;[m
+[31m-  width: 15vw;[m
+[31m-  min-width: 200px;[m
+[31m-[m
+[31m-  padding: 1vh 0;[m
+[31m-  color: black;[m
+[31m-  border: 2px solid #2d2d2d;[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-.report-flag-icon {[m
+[31m-  margin-right: 5px;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-/* /商品の概要 */[m
+[31m-[m
+[31m-.comment-box {[m
+[31m-  width: 40vw;[m
+[31m-  background-color: #fff;[m
+[31m-  margin: 5vh 0;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.comment-text {[m
+[31m-  width: 100%;[m
+[31m-  height: 100px;[m
+[31m-  padding: 10px;[m
+[31m-  border: solid 2px #dedede;[m
+[31m-  resize: none;[m
+[31m-}[m
+[31m-[m
+[31m-.comment-warn {[m
+[31m-  padding: 10px;[m
+[31m-  font-size: 14px;[m
+[31m-  margin: 10px 0px;[m
+[31m-  text-align: left;[m
+[31m-}[m
+[31m-[m
+[31m-.comment-btn {[m
+[31m-  line-height: 48px;[m
+[31m-  background-color: #3CCACE;[m
+[31m-  border: 1px solid #3CCACE;[m
+[31m-  color: #fff;[m
+[31m-  width: 50%;[m
+[31m-  min-width: 150px;[m
+[31m-  font-size: 18px;[m
+[31m-  border-radius: 100px;[m
+[31m-  margin-bottom: 2vh;[m
+[31m-}[m
+[31m-[m
+[31m-.comment-flag {[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-.comment-flag-icon {[m
+[31m-  margin: 10px 5px 0 0;[m
+[31m-}[m
+[31m-[m
+[31m-.links {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  width: 50vw;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-.change-item-btn {[m
+[31m-  font-size: 30px;[m
+[31m-  text-decoration: none;[m
+[31m-  color: #3CCACE;[m
+[31m-}[m
+[31m-[m
+[31m-.another-item {[m
+[31m-  display: block;[m
+[31m-  margin: 30px 0px 8px;[m
+[31m-  color: #3CCACE;[m
+[31m-  text-decoration: none;[m
+[31m-  font-weight: bold;[m
+[31m-  font-size: 23px;[m
+[32m+[m[32m/* 商品の概要 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-show {[m[41m[m
+[32m+[m[32m  background-color: #f8f8f8;[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  padding: 5vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-box {[m[41m[m
+[32m+[m[32m  background-color: #FFF;[m[41m[m
+[32m+[m[32m  width: 70vw;[m[41m[m
+[32m+[m[32m  min-width: 1200px;[m[41m[m
+[32m+[m[32m  padding: 10vh 15vw;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-box>.name {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  font-size: 25px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-box-img {[m[41m[m
+[32m+[m[32m  height: 50vh;[m[41m[m
+[32m+[m[32m  width: 60vw;[m[41m[m
+[32m+[m[32m  min-height: 500px;[m[41m[m
+[32m+[m[32m  background-color: rgb(205, 202, 202);[m[41m[m
+[32m+[m[32m  object-fit: contain;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-price-box {[m[41m[m
+[32m+[m[32m  margin: 25px 0px;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-price-box>.item-price {[m[41m[m
+[32m+[m[32m  font-size: 4vh;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-price-box>.item-postage {[m[41m[m
+[32m+[m[32m  font-size: 16px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-red-btn {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  background-color: #ea352d;[m[41m[m
+[32m+[m[32m  font-size: 24px;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  color: #FFF;[m[41m[m
+[32m+[m[32m  margin: 20px 0px;[m[41m[m
+[32m+[m[32m  padding: 2vh 10vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.or-text {[m[41m[m
+[32m+[m[32m  font-size: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-destroy {[m[41m[m
+[32m+[m[32m  background-color: lightgray;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  font-size: 24px;[m[41m[m
+[32m+[m[32m  color: black;[m[41m[m
+[32m+[m[32m  margin: 20px 0px;[m[41m[m
+[32m+[m[32m  padding: 2vh 10vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-explain-box {[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  margin: 40px 0px;[m[41m[m
+[32m+[m[32m  overflow-wrap: anywhere;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.detail-table {[m[41m[m
+[32m+[m[32m  margin-bottom: 30px;[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.detail-item {[m[41m[m
+[32m+[m[32m  width: 20%;[m[41m[m
+[32m+[m[32m  background-color: #eee;[m[41m[m
+[32m+[m[32m  border: 1px solid #dedede;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.detail-value {[m[41m[m
+[32m+[m[32m  width: 80%;[m[41m[m
+[32m+[m[32m  padding: 20px;[m[41m[m
+[32m+[m[32m  border: 1px solid #dedede;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.option {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  position: relative;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.favorite-btn {[m[41m[m
+[32m+[m[32m  border-radius: 40px;[m[41m[m
+[32m+[m[32m  width: 15vw;[m[41m[m
+[32m+[m[32m  min-width: 200px;[m[41m[m
+[32m+[m[32m  color: rgb(249, 75, 0);[m[41m[m
+[32m+[m[32m  border: 2px solid #ffb340;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  margin-right: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.favorite-star-icon {[m[41m[m
+[32m+[m[32m  margin-right: 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.report-btn {[m[41m[m
+[32m+[m[32m  border-radius: 40px;[m[41m[m
+[32m+[m[32m  width: 15vw;[m[41m[m
+[32m+[m[32m  min-width: 200px;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  padding: 1vh 0;[m[41m[m
+[32m+[m[32m  color: black;[m[41m[m
+[32m+[m[32m  border: 2px solid #2d2d2d;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.report-flag-icon {[m[41m[m
+[32m+[m[32m  margin-right: 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /商品の概要 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.comment-box {[m[41m[m
+[32m+[m[32m  width: 40vw;[m[41m[m
+[32m+[m[32m  background-color: #fff;[m[41m[m
+[32m+[m[32m  margin: 5vh 0;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.comment-text {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  height: 100px;[m[41m[m
+[32m+[m[32m  padding: 10px;[m[41m[m
+[32m+[m[32m  border: solid 2px #dedede;[m[41m[m
+[32m+[m[32m  resize: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.comment-warn {[m[41m[m
+[32m+[m[32m  padding: 10px;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m  margin: 10px 0px;[m[41m[m
+[32m+[m[32m  text-align: left;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.comment-btn {[m[41m[m
+[32m+[m[32m  line-height: 48px;[m[41m[m
+[32m+[m[32m  background-color: #3CCACE;[m[41m[m
+[32m+[m[32m  border: 1px solid #3CCACE;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  width: 50%;[m[41m[m
+[32m+[m[32m  min-width: 150px;[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  border-radius: 100px;[m[41m[m
+[32m+[m[32m  margin-bottom: 2vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.comment-flag {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.comment-flag-icon {[m[41m[m
+[32m+[m[32m  margin: 10px 5px 0 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.links {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  width: 50vw;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.change-item-btn {[m[41m[m
+[32m+[m[32m  font-size: 30px;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  color: #3CCACE;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.another-item {[m[41m[m
+[32m+[m[32m  display: block;[m[41m[m
+[32m+[m[32m  margin: 30px 0px 8px;[m[41m[m
+[32m+[m[32m  color: #3CCACE;[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  font-size: 23px;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/items/show.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/items/show.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/items/new.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/new.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/orders/index.css b/app/assets/stylesheets/items/orders/index.css[m
+[1mindex 5689a8e..dd827e2 100644[m
+[1m--- a/app/assets/stylesheets/items/orders/index.css[m
+[1m+++ b/app/assets/stylesheets/items/orders/index.css[m
+[36m@@ -1,157 +1,157 @@[m
+[31m-.transaction-contents {[m
+[31m-  width: 100vw;[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-.transaction-main {[m
+[31m-  background-color: #FFF;[m
+[31m-  width: 70vw;[m
+[31m-  min-width: 450px;[m
+[31m-  padding: 10vh 10vw;[m
+[31m-}[m
+[31m-[m
+[31m-.transaction-title-text {[m
+[31m-  text-align: center;[m
+[31m-  border-bottom: 2px solid #f5f5f5;[m
+[31m-  font-weight: bold;[m
+[31m-  font-size: 22px;[m
+[31m-}[m
+[31m-[m
+[31m-/* 購入内容の表示 */[m
+[31m-.buy-item-info {[m
+[31m-  height: 150px;[m
+[31m-  border-bottom: 2px solid #f5f5f5;[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-.buy-item-img {[m
+[31m-  margin-right: 20px;[m
+[31m-  height: 130px;[m
+[31m-  width: 250px;[m
+[31m-  object-fit: contain;[m
+[31m-}[m
+[31m-[m
+[31m-.buy-item-right-content {[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-}[m
+[31m-[m
+[31m-.buy-item-text {[m
+[31m-  font-size: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.buy-item-price {[m
+[31m-  display: flex;[m
+[31m-  font-weight: bold;[m
+[31m-  align-items: center;[m
+[31m-  margin-top: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.item-price-text {[m
+[31m-  font-size: 15px;[m
+[31m-  margin-right: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.item-price-sub-text {[m
+[31m-  font-size: 12px;[m
+[31m-}[m
+[31m-[m
+[31m-/* /購入内容の表示 */[m
+[31m-[m
+[31m-/* 支払額の表示 */[m
+[31m-.item-payment {[m
+[31m-  height: 120px;[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-around;[m
+[31m-  align-items: center;[m
+[31m-  border-bottom: 2px solid #f5f5f5;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.item-payment-title {[m
+[31m-  font-size: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.item-payment-price {[m
+[31m-  font-size: 25px;[m
+[31m-}[m
+[31m-[m
+[31m-/* /支払額の表示 */[m
+[31m-[m
+[31m-/* カード情報の入力 */[m
+[31m-.credit-card-form {[m
+[31m-  border-bottom: 2px solid #f5f5f5;[m
+[31m-  margin-top: 15px;[m
+[31m-  padding-bottom: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.info-input-haedline {[m
+[31m-  text-align: center;[m
+[31m-  font-weight: bold;[m
+[31m-  font-size: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.available-card {[m
+[31m-  display: flex;[m
+[31m-  height: 35px;[m
+[31m-}[m
+[31m-[m
+[31m-.card-logo {[m
+[31m-  width: 40px;[m
+[31m-  margin: 5px 5px;[m
+[31m-}[m
+[31m-[m
+[31m-.input-expiration-date-wrap {[m
+[31m-  width: 100%;[m
+[31m-  display: flex;[m
+[31m-  text-align: center;[m
+[31m-  line-height: 55px;[m
+[31m-}[m
+[31m-[m
+[31m-.input-expiration-date {[m
+[31m-  width: 20%;[m
+[31m-  margin-top: 5px;[m
+[31m-  height: 48px;[m
+[31m-  border-radius: 4px;[m
+[31m-  border: 1px solid #ccc;[m
+[31m-  background: #fff;[m
+[31m-  font-size: 16px;[m
+[31m-  resize: none;[m
+[31m-  line-height: 45px;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-/* /カード情報の入力 */[m
+[31m-[m
+[31m-/* 配送先の入力 */[m
+[31m-.shipping-address-form {[m
+[31m-  margin-top: 15px;[m
+[31m-}[m
+[31m-[m
+[31m-.form-any {[m
+[31m-  background: #ccc;[m
+[31m-  border-radius: 2px;[m
+[31m-  color: #fff;[m
+[31m-  font-size: 12px;[m
+[31m-  padding: 2px 4px;[m
+[31m-}[m
+[31m-[m
+[31m-.buy-btn {[m
+[31m-  width: 50%;[m
+[31m-  margin: 0 auto;[m
+[31m-  margin-top: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-.buy-red-btn {[m
+[31m-  width: 100%;[m
+[31m-  background: #ea352d;[m
+[31m-  border: 1px solid #ea352d;[m
+[31m-  color: #fff;[m
+[31m-  line-height: 48px;[m
+[31m-  font-size: 14px;[m
+[31m-  cursor: pointer;[m
+[32m+[m[32m.transaction-contents {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  background-color: #f5f5f5;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.transaction-main {[m[41m[m
+[32m+[m[32m  background-color: #FFF;[m[41m[m
+[32m+[m[32m  width: 70vw;[m[41m[m
+[32m+[m[32m  min-width: 450px;[m[41m[m
+[32m+[m[32m  padding: 10vh 10vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.transaction-title-text {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  border-bottom: 2px solid #f5f5f5;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  font-size: 22px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 購入内容の表示 */[m[41m[m
+[32m+[m[32m.buy-item-info {[m[41m[m
+[32m+[m[32m  height: 150px;[m[41m[m
+[32m+[m[32m  border-bottom: 2px solid #f5f5f5;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.buy-item-img {[m[41m[m
+[32m+[m[32m  margin-right: 20px;[m[41m[m
+[32m+[m[32m  height: 130px;[m[41m[m
+[32m+[m[32m  width: 250px;[m[41m[m
+[32m+[m[32m  object-fit: contain;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.buy-item-right-content {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.buy-item-text {[m[41m[m
+[32m+[m[32m  font-size: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.buy-item-price {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  margin-top: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-price-text {[m[41m[m
+[32m+[m[32m  font-size: 15px;[m[41m[m
+[32m+[m[32m  margin-right: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-price-sub-text {[m[41m[m
+[32m+[m[32m  font-size: 12px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /購入内容の表示 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 支払額の表示 */[m[41m[m
+[32m+[m[32m.item-payment {[m[41m[m
+[32m+[m[32m  height: 120px;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-around;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  border-bottom: 2px solid #f5f5f5;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-payment-title {[m[41m[m
+[32m+[m[32m  font-size: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.item-payment-price {[m[41m[m
+[32m+[m[32m  font-size: 25px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /支払額の表示 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* カード情報の入力 */[m[41m[m
+[32m+[m[32m.credit-card-form {[m[41m[m
+[32m+[m[32m  border-bottom: 2px solid #f5f5f5;[m[41m[m
+[32m+[m[32m  margin-top: 15px;[m[41m[m
+[32m+[m[32m  padding-bottom: 30px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.info-input-haedline {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  font-size: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.available-card {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  height: 35px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.card-logo {[m[41m[m
+[32m+[m[32m  width: 40px;[m[41m[m
+[32m+[m[32m  margin: 5px 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.input-expiration-date-wrap {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  line-height: 55px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.input-expiration-date {[m[41m[m
+[32m+[m[32m  width: 20%;[m[41m[m
+[32m+[m[32m  margin-top: 5px;[m[41m[m
+[32m+[m[32m  height: 48px;[m[41m[m
+[32m+[m[32m  border-radius: 4px;[m[41m[m
+[32m+[m[32m  border: 1px solid #ccc;[m[41m[m
+[32m+[m[32m  background: #fff;[m[41m[m
+[32m+[m[32m  font-size: 16px;[m[41m[m
+[32m+[m[32m  resize: none;[m[41m[m
+[32m+[m[32m  line-height: 45px;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* /カード情報の入力 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* 配送先の入力 */[m[41m[m
+[32m+[m[32m.shipping-address-form {[m[41m[m
+[32m+[m[32m  margin-top: 15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.form-any {[m[41m[m
+[32m+[m[32m  background: #ccc;[m[41m[m
+[32m+[m[32m  border-radius: 2px;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  font-size: 12px;[m[41m[m
+[32m+[m[32m  padding: 2px 4px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.buy-btn {[m[41m[m
+[32m+[m[32m  width: 50%;[m[41m[m
+[32m+[m[32m  margin: 0 auto;[m[41m[m
+[32m+[m[32m  margin-top: 50px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.buy-red-btn {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  background: #ea352d;[m[41m[m
+[32m+[m[32m  border: 1px solid #ea352d;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  line-height: 48px;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m  cursor: pointer;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/orders/index.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/orders/index.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/reset.css b/app/assets/stylesheets/items/reset.css[m
+[1mindex 5a8fc99..32e59c1 100644[m
+[1m--- a/app/assets/stylesheets/items/reset.css[m
+[1m+++ b/app/assets/stylesheets/items/reset.css[m
+[36m@@ -1,126 +1,126 @@[m
+[31m-/*![m
+[31m- * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)[m
+[31m- * http://cssreset.com[m
+[31m- * Copyright 2012 Yahoo! Inc. All rights reserved.[m
+[31m- * http://yuilibrary.com/license/[m
+[31m- */[m
+[31m-/*[m
+[31m-    TODO will need to remove settings on HTML since we can't namespace it.[m
+[31m-    TODO with the prefix, should I group by selector or property for weight savings?[m
+[31m-*/[m
+[31m-html{[m
+[31m-  color:#000;[m
+[31m-  background:#FFF;[m
+[31m-}[m
+[31m-/*[m
+[31m-  TODO remove settings on BODY since we can't namespace it.[m
+[31m-*/[m
+[31m-/*[m
+[31m-  TODO test putting a class on HEAD.[m
+[31m-      - Fails on FF.[m
+[31m-*/[m
+[31m-body,[m
+[31m-div,[m
+[31m-dl,[m
+[31m-dt,[m
+[31m-dd,[m
+[31m-ul,[m
+[31m-ol,[m
+[31m-li,[m
+[31m-h1,[m
+[31m-h2,[m
+[31m-h3,[m
+[31m-h4,[m
+[31m-h5,[m
+[31m-h6,[m
+[31m-pre,[m
+[31m-code,[m
+[31m-form,[m
+[31m-fieldset,[m
+[31m-legend,[m
+[31m-input,[m
+[31m-textarea,[m
+[31m-p,[m
+[31m-blockquote,[m
+[31m-th,[m
+[31m-td {[m
+[31m-  margin:0;[m
+[31m-  padding:0;[m
+[31m-}[m
+[31m-table {[m
+[31m-  border-collapse:collapse;[m
+[31m-  border-spacing:0;[m
+[31m-}[m
+[31m-fieldset,[m
+[31m-img {[m
+[31m-  border:0;[m
+[31m-}[m
+[31m-/*[m
+[31m-  TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...[m
+[31m-*/[m
+[31m-address,[m
+[31m-caption,[m
+[31m-cite,[m
+[31m-code,[m
+[31m-dfn,[m
+[31m-em,[m
+[31m-strong,[m
+[31m-th,[m
+[31m-var {[m
+[31m-  font-style:normal;[m
+[31m-  font-weight:normal;[m
+[31m-}[m
+[31m-[m
+[31m-ol,[m
+[31m-ul {[m
+[31m-  list-style:none;[m
+[31m-}[m
+[31m-[m
+[31m-caption,[m
+[31m-th {[m
+[31m-  text-align:left;[m
+[31m-}[m
+[31m-h1,[m
+[31m-h2,[m
+[31m-h3,[m
+[31m-h4,[m
+[31m-h5,[m
+[31m-h6 {[m
+[31m-  font-size:100%;[m
+[31m-  font-weight:normal;[m
+[31m-}[m
+[31m-q:before,[m
+[31m-q:after {[m
+[31m-  content:'';[m
+[31m-}[m
+[31m-abbr,[m
+[31m-acronym {[m
+[31m-  border:0;[m
+[31m-  font-variant:normal;[m
+[31m-}[m
+[31m-/* to preserve line-height and selector appearance */[m
+[31m-sup {[m
+[31m-  vertical-align:text-top;[m
+[31m-}[m
+[31m-sub {[m
+[31m-  vertical-align:text-bottom;[m
+[31m-}[m
+[31m-input,[m
+[31m-textarea,[m
+[31m-select {[m
+[31m-  font-family:inherit;[m
+[31m-  font-size:inherit;[m
+[31m-  font-weight:inherit;[m
+[31m-}[m
+[31m-/*to enable resizing for IE*/[m
+[31m-input,[m
+[31m-textarea,[m
+[31m-select {[m
+[31m-  *font-size:100%;[m
+[31m-}[m
+[31m-/*because legend doesn't inherit in IE */[m
+[31m-legend {[m
+[31m-  color:#000;[m
+[31m-}[m
+[31m-/* YUI CSS Detection Stamp */[m
+[32m+[m[32m/*![m[41m[m
+[32m+[m[32m * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)[m[41m[m
+[32m+[m[32m * http://cssreset.com[m[41m[m
+[32m+[m[32m * Copyright 2012 Yahoo! Inc. All rights reserved.[m[41m[m
+[32m+[m[32m * http://yuilibrary.com/license/[m[41m[m
+[32m+[m[32m */[m[41m[m
+[32m+[m[32m/*[m[41m[m
+[32m+[m[32m    TODO will need to remove settings on HTML since we can't namespace it.[m[41m[m
+[32m+[m[32m    TODO with the prefix, should I group by selector or property for weight savings?[m[41m[m
+[32m+[m[32m*/[m[41m[m
+[32m+[m[32mhtml{[m[41m[m
+[32m+[m[32m  color:#000;[m[41m[m
+[32m+[m[32m  background:#FFF;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/*[m[41m[m
+[32m+[m[32m  TODO remove settings on BODY since we can't namespace it.[m[41m[m
+[32m+[m[32m*/[m[41m[m
+[32m+[m[32m/*[m[41m[m
+[32m+[m[32m  TODO test putting a class on HEAD.[m[41m[m
+[32m+[m[32m      - Fails on FF.[m[41m[m
+[32m+[m[32m*/[m[41m[m
+[32m+[m[32mbody,[m[41m[m
+[32m+[m[32mdiv,[m[41m[m
+[32m+[m[32mdl,[m[41m[m
+[32m+[m[32mdt,[m[41m[m
+[32m+[m[32mdd,[m[41m[m
+[32m+[m[32mul,[m[41m[m
+[32m+[m[32mol,[m[41m[m
+[32m+[m[32mli,[m[41m[m
+[32m+[m[32mh1,[m[41m[m
+[32m+[m[32mh2,[m[41m[m
+[32m+[m[32mh3,[m[41m[m
+[32m+[m[32mh4,[m[41m[m
+[32m+[m[32mh5,[m[41m[m
+[32m+[m[32mh6,[m[41m[m
+[32m+[m[32mpre,[m[41m[m
+[32m+[m[32mcode,[m[41m[m
+[32m+[m[32mform,[m[41m[m
+[32m+[m[32mfieldset,[m[41m[m
+[32m+[m[32mlegend,[m[41m[m
+[32m+[m[32minput,[m[41m[m
+[32m+[m[32mtextarea,[m[41m[m
+[32m+[m[32mp,[m[41m[m
+[32m+[m[32mblockquote,[m[41m[m
+[32m+[m[32mth,[m[41m[m
+[32m+[m[32mtd {[m[41m[m
+[32m+[m[32m  margin:0;[m[41m[m
+[32m+[m[32m  padding:0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mtable {[m[41m[m
+[32m+[m[32m  border-collapse:collapse;[m[41m[m
+[32m+[m[32m  border-spacing:0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mfieldset,[m[41m[m
+[32m+[m[32mimg {[m[41m[m
+[32m+[m[32m  border:0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/*[m[41m[m
+[32m+[m[32m  TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...[m[41m[m
+[32m+[m[32m*/[m[41m[m
+[32m+[m[32maddress,[m[41m[m
+[32m+[m[32mcaption,[m[41m[m
+[32m+[m[32mcite,[m[41m[m
+[32m+[m[32mcode,[m[41m[m
+[32m+[m[32mdfn,[m[41m[m
+[32m+[m[32mem,[m[41m[m
+[32m+[m[32mstrong,[m[41m[m
+[32m+[m[32mth,[m[41m[m
+[32m+[m[32mvar {[m[41m[m
+[32m+[m[32m  font-style:normal;[m[41m[m
+[32m+[m[32m  font-weight:normal;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mol,[m[41m[m
+[32m+[m[32mul {[m[41m[m
+[32m+[m[32m  list-style:none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mcaption,[m[41m[m
+[32m+[m[32mth {[m[41m[m
+[32m+[m[32m  text-align:left;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mh1,[m[41m[m
+[32m+[m[32mh2,[m[41m[m
+[32m+[m[32mh3,[m[41m[m
+[32m+[m[32mh4,[m[41m[m
+[32m+[m[32mh5,[m[41m[m
+[32m+[m[32mh6 {[m[41m[m
+[32m+[m[32m  font-size:100%;[m[41m[m
+[32m+[m[32m  font-weight:normal;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mq:before,[m[41m[m
+[32m+[m[32mq:after {[m[41m[m
+[32m+[m[32m  content:'';[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mabbr,[m[41m[m
+[32m+[m[32macronym {[m[41m[m
+[32m+[m[32m  border:0;[m[41m[m
+[32m+[m[32m  font-variant:normal;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/* to preserve line-height and selector appearance */[m[41m[m
+[32m+[m[32msup {[m[41m[m
+[32m+[m[32m  vertical-align:text-top;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32msub {[m[41m[m
+[32m+[m[32m  vertical-align:text-bottom;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32minput,[m[41m[m
+[32m+[m[32mtextarea,[m[41m[m
+[32m+[m[32mselect {[m[41m[m
+[32m+[m[32m  font-family:inherit;[m[41m[m
+[32m+[m[32m  font-size:inherit;[m[41m[m
+[32m+[m[32m  font-weight:inherit;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/*to enable resizing for IE*/[m[41m[m
+[32m+[m[32minput,[m[41m[m
+[32m+[m[32mtextarea,[m[41m[m
+[32m+[m[32mselect {[m[41m[m
+[32m+[m[32m  *font-size:100%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/*because legend doesn't inherit in IE */[m[41m[m
+[32m+[m[32mlegend {[m[41m[m
+[32m+[m[32m  color:#000;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/* YUI CSS Detection Stamp */[m[41m[m
+ #yui3-css-stamp.cssreset { display: none; }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/reset.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/reset.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/shared/error_messages.css b/app/assets/stylesheets/items/shared/error_messages.css[m
+[1mindex cddef3b..43daa52 100644[m
+[1m--- a/app/assets/stylesheets/items/shared/error_messages.css[m
+[1m+++ b/app/assets/stylesheets/items/shared/error_messages.css[m
+[36m@@ -1,11 +1,11 @@[m
+[31m-.error-alert {[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-  margin-bottom: 5vh;[m
+[31m-}[m
+[31m-[m
+[31m-.error-message {[m
+[31m-  font-size: 1.3vw;[m
+[31m-  list-style: circle;[m
+[31m-  color: rgb(182, 48, 0);[m
+[32m+[m[32m.error-alert {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  margin-bottom: 5vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.error-message {[m[41m[m
+[32m+[m[32m  font-size: 1.3vw;[m[41m[m
+[32m+[m[32m  list-style: circle;[m[41m[m
+[32m+[m[32m  color: rgb(182, 48, 0);[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/shared/error_messages.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/shared/error_messages.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/shared/footer.css b/app/assets/stylesheets/items/shared/footer.css[m
+[1mindex cf57219..4a3a030 100644[m
+[1m--- a/app/assets/stylesheets/items/shared/footer.css[m
+[1m+++ b/app/assets/stylesheets/items/shared/footer.css[m
+[36m@@ -1,68 +1,68 @@[m
+[31m-/* 下部広告部分 */[m
+[31m-/* items/index.htmlの広告cssを所々使いまわしています。 */[m
+[31m-[m
+[31m-.ad-footer-contents {[m
+[31m-  width: 100vw;[m
+[31m-  background-image: url('furima-footer.png');[m
+[31m-  background-size: cover;[m
+[31m-  background-repeat: no-repeat;[m
+[31m-  background-position: top center;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-  justify-content: center;[m
+[31m-  padding: 5vh 15vw;[m
+[31m-  color: #fff;[m
+[31m-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);[m
+[31m-}[m
+[31m-[m
+[31m-.ad-footer-title {[m
+[31m-  font-size: 4vh;[m
+[31m-  margin-bottom: 2vh;[m
+[31m-}[m
+[31m-[m
+[31m-.ad-footer-explain {[m
+[31m-  font-size: 3vh;[m
+[31m-  line-height: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-/* //下部広告部分 */[m
+[31m-[m
+[31m-.footer {[m
+[31m-  width: 100vw;[m
+[31m-  padding: 5vh 0;[m
+[31m-  color: #FFF;[m
+[31m-  background-color: #272727;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.footer-contents {[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-  margin-bottom: 5vh;[m
+[31m-}[m
+[31m-[m
+[31m-.furima-details {[m
+[31m-  margin: 0 4vw;[m
+[31m-}[m
+[31m-[m
+[31m-.footer-content-head {[m
+[31m-  font-size: 18px;[m
+[31m-  font-weight: bold;[m
+[31m-  margin-bottom: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.footer-link {[m
+[31m-  color: #FFF;[m
+[31m-  font-size: 12px;[m
+[31m-  line-height: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.logo-white {[m
+[31m-  width: 20vh;[m
+[31m-  vertical-align: bottom;[m
+[31m-}[m
+[31m-[m
+[31m-.footer>p {[m
+[31m-  font-size: 14px;[m
+[32m+[m[32m/* 下部広告部分 */[m[41m[m
+[32m+[m[32m/* items/index.htmlの広告cssを所々使いまわしています。 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.ad-footer-contents {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  background-image: url('furima-footer.png');[m[41m[m
+[32m+[m[32m  background-size: cover;[m[41m[m
+[32m+[m[32m  background-repeat: no-repeat;[m[41m[m
+[32m+[m[32m  background-position: top center;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  padding: 5vh 15vw;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.ad-footer-title {[m[41m[m
+[32m+[m[32m  font-size: 4vh;[m[41m[m
+[32m+[m[32m  margin-bottom: 2vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.ad-footer-explain {[m[41m[m
+[32m+[m[32m  font-size: 3vh;[m[41m[m
+[32m+[m[32m  line-height: 30px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* //下部広告部分 */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.footer {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  padding: 5vh 0;[m[41m[m
+[32m+[m[32m  color: #FFF;[m[41m[m
+[32m+[m[32m  background-color: #272727;[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.footer-contents {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m  margin-bottom: 5vh;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.furima-details {[m[41m[m
+[32m+[m[32m  margin: 0 4vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.footer-content-head {[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m  margin-bottom: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.footer-link {[m[41m[m
+[32m+[m[32m  color: #FFF;[m[41m[m
+[32m+[m[32m  font-size: 12px;[m[41m[m
+[32m+[m[32m  line-height: 30px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.logo-white {[m[41m[m
+[32m+[m[32m  width: 20vh;[m[41m[m
+[32m+[m[32m  vertical-align: bottom;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.footer>p {[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/shared/footer.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/shared/footer.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/shared/header.css b/app/assets/stylesheets/items/shared/header.css[m
+[1mindex b5d0f54..c704aa2 100644[m
+[1m--- a/app/assets/stylesheets/items/shared/header.css[m
+[1m+++ b/app/assets/stylesheets/items/shared/header.css[m
+[36m@@ -1,104 +1,104 @@[m
+[31m-* {[m
+[31m-  box-sizing: border-box;[m
+[31m-}[m
+[31m-[m
+[31m-.top-page-header {[m
+[31m-  width: 100vw;[m
+[31m-  padding: 2vh 15vw;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-}[m
+[31m-[m
+[31m-.search-bar-contents {[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  align-items: center;[m
+[31m-}[m
+[31m-[m
+[31m-.furima-icon {[m
+[31m-  width: 10vw;[m
+[31m-  margin-right: 10vw;[m
+[31m-}[m
+[31m-[m
+[31m-.search-form {[m
+[31m-  width: 65vw;[m
+[31m-  height: 5vh;[m
+[31m-  display: flex;[m
+[31m-  margin-bottom: 5px;[m
+[31m-}[m
+[31m-[m
+[31m-.search-form>.input-box {[m
+[31m-  width: 100%;[m
+[31m-  height: 5vh;[m
+[31m-  padding-left: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.search-button {[m
+[31m-  width: 5vh;[m
+[31m-  border: 0;[m
+[31m-  cursor: pointer;[m
+[31m-  background-color: #3ccace;[m
+[31m-  padding: 8px;[m
+[31m-}[m
+[31m-[m
+[31m-.search-icon {[m
+[31m-  width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-.nav {[m
+[31m-  font-size: 18px;[m
+[31m-  display: flex;[m
+[31m-  justify-content: space-between;[m
+[31m-  flex-wrap: wrap;[m
+[31m-  width: 100%;[m
+[31m-  padding: 1vh 0;[m
+[31m-}[m
+[31m-[m
+[31m-.lists-left {[m
+[31m-  display: flex;[m
+[31m-  min-width: 200px;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-.category-list {[m
+[31m-  text-decoration: none;[m
+[31m-  margin-right: 3vw;[m
+[31m-  color: #333333;[m
+[31m-}[m
+[31m-[m
+[31m-.brand-list {[m
+[31m-  text-decoration: none;[m
+[31m-  color: #333333;[m
+[31m-}[m
+[31m-[m
+[31m-.lists-right {[m
+[31m-  display: flex;[m
+[31m-  list-style: none;[m
+[31m-  align-items: flex-end;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.user-nickname {[m
+[31m-  text-decoration: none;[m
+[31m-  margin-right: 3vw;[m
+[31m-  color: #333333;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.logout {[m
+[31m-  text-decoration: none;[m
+[31m-  color: #333333;[m
+[31m-}[m
+[31m-[m
+[31m-.login {[m
+[31m-  text-decoration: none;[m
+[31m-  line-height: 32px;[m
+[31m-  margin-right: 3vw;[m
+[31m-  color: #333333;[m
+[31m-}[m
+[31m-[m
+[31m-.sign-up {[m
+[31m-  text-decoration: none;[m
+[31m-  color: #333333;[m
+[32m+[m[32m* {[m[41m[m
+[32m+[m[32m  box-sizing: border-box;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.top-page-header {[m[41m[m
+[32m+[m[32m  width: 100vw;[m[41m[m
+[32m+[m[32m  padding: 2vh 15vw;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.search-bar-contents {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.furima-icon {[m[41m[m
+[32m+[m[32m  width: 10vw;[m[41m[m
+[32m+[m[32m  margin-right: 10vw;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.search-form {[m[41m[m
+[32m+[m[32m  width: 65vw;[m[41m[m
+[32m+[m[32m  height: 5vh;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  margin-bottom: 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.search-form>.input-box {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  height: 5vh;[m[41m[m
+[32m+[m[32m  padding-left: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.search-button {[m[41m[m
+[32m+[m[32m  width: 5vh;[m[41m[m
+[32m+[m[32m  border: 0;[m[41m[m
+[32m+[m[32m  cursor: pointer;[m[41m[m
+[32m+[m[32m  background-color: #3ccace;[m[41m[m
+[32m+[m[32m  padding: 8px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.search-icon {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.nav {[m[41m[m
+[32m+[m[32m  font-size: 18px;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: space-between;[m[41m[m
+[32m+[m[32m  flex-wrap: wrap;[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  padding: 1vh 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.lists-left {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  min-width: 200px;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.category-list {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  margin-right: 3vw;[m[41m[m
+[32m+[m[32m  color: #333333;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.brand-list {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  color: #333333;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.lists-right {[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  list-style: none;[m[41m[m
+[32m+[m[32m  align-items: flex-end;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.user-nickname {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  margin-right: 3vw;[m[41m[m
+[32m+[m[32m  color: #333333;[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.logout {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  color: #333333;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.login {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  line-height: 32px;[m[41m[m
+[32m+[m[32m  margin-right: 3vw;[m[41m[m
+[32m+[m[32m  color: #333333;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.sign-up {[m[41m[m
+[32m+[m[32m  text-decoration: none;[m[41m[m
+[32m+[m[32m  color: #333333;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/shared/header.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/shared/header.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/shared/second_fotter.css b/app/assets/stylesheets/items/shared/second_fotter.css[m
+[1mindex 89ccc14..7d09881 100644[m
+[1m--- a/app/assets/stylesheets/items/shared/second_fotter.css[m
+[1m+++ b/app/assets/stylesheets/items/shared/second_fotter.css[m
+[36m@@ -1,26 +1,26 @@[m
+[31m-.second-fotter {[m
+[31m-  width: 100%;[m
+[31m-  min-width: 800px;[m
+[31m-  height: 200px;[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-}[m
+[31m-[m
+[31m-.second-fotter-text-wrap {[m
+[31m-  margin: 30px 0;[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-.second-fotter-text {[m
+[31m-  color: #333;[m
+[31m-  font-size: 12px;[m
+[31m-  margin: 0 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.second-fotter-logo {[m
+[31m-  width: 185px;[m
+[31m-  height: 49px;[m
+[31m-  margin: 0 auto;[m
+[32m+[m[32m.second-fotter {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  min-width: 800px;[m[41m[m
+[32m+[m[32m  height: 200px;[m[41m[m
+[32m+[m[32m  background-color: #f5f5f5;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  flex-direction: column;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.second-fotter-text-wrap {[m[41m[m
+[32m+[m[32m  margin: 30px 0;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.second-fotter-text {[m[41m[m
+[32m+[m[32m  color: #333;[m[41m[m
+[32m+[m[32m  font-size: 12px;[m[41m[m
+[32m+[m[32m  margin: 0 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.second-fotter-logo {[m[41m[m
+[32m+[m[32m  width: 185px;[m[41m[m
+[32m+[m[32m  height: 49px;[m[41m[m
+[32m+[m[32m  margin: 0 auto;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/shared/second_fotter.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/shared/second_fotter.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/shared/second_header.css b/app/assets/stylesheets/items/shared/second_header.css[m
+[1mindex a399397..7121730 100644[m
+[1m--- a/app/assets/stylesheets/items/shared/second_header.css[m
+[1m+++ b/app/assets/stylesheets/items/shared/second_header.css[m
+[36m@@ -1,14 +1,14 @@[m
+[31m-.second-header {[m
+[31m-  width: 100%;[m
+[31m-  min-width: 800px;[m
+[31m-  height: 130px;[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  display: flex;[m
+[31m-  align-items: center;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-.second-logo {[m
+[31m-  width: 185px;[m
+[31m-  height: 49px;[m
+[32m+[m[32m.second-header {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  min-width: 800px;[m[41m[m
+[32m+[m[32m  height: 130px;[m[41m[m
+[32m+[m[32m  background-color: #f5f5f5;[m[41m[m
+[32m+[m[32m  display: flex;[m[41m[m
+[32m+[m[32m  align-items: center;[m[41m[m
+[32m+[m[32m  justify-content: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.second-logo {[m[41m[m
+[32m+[m[32m  width: 185px;[m[41m[m
+[32m+[m[32m  height: 49px;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/shared/second_header.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/shared/second_header.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git "a/app/assets/stylesheets/items/show.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/show.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/user/login.css b/app/assets/stylesheets/items/user/login.css[m
+[1mindex 425ca6f..bc7d4ac 100644[m
+[1m--- a/app/assets/stylesheets/items/user/login.css[m
+[1m+++ b/app/assets/stylesheets/items/user/login.css[m
+[36m@@ -1,20 +1,20 @@[m
+[31m-.login-btn {[m
+[31m-  width: 50%;[m
+[31m-  margin: 0 auto;[m
+[31m-  margin-top: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-.login-red-btn {[m
+[31m-  width: 100%;[m
+[31m-  background: #ea352d;[m
+[31m-  border: 1px solid #ea352d;[m
+[31m-  color: #fff;[m
+[31m-  line-height: 48px;[m
+[31m-  font-size: 14px;[m
+[31m-  cursor: pointer;[m
+[31m-}[m
+[31m-[m
+[31m-.login-flash-message {[m
+[31m-  text-align: center;[m
+[31m-  color: red;[m
+[32m+[m[32m.login-btn {[m[41m[m
+[32m+[m[32m  width: 50%;[m[41m[m
+[32m+[m[32m  margin: 0 auto;[m[41m[m
+[32m+[m[32m  margin-top: 50px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.login-red-btn {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  background: #ea352d;[m[41m[m
+[32m+[m[32m  border: 1px solid #ea352d;[m[41m[m
+[32m+[m[32m  color: #fff;[m[41m[m
+[32m+[m[32m  line-height: 48px;[m[41m[m
+[32m+[m[32m  font-size: 14px;[m[41m[m
+[32m+[m[32m  cursor: pointer;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.login-flash-message {[m[41m[m
+[32m+[m[32m  text-align: center;[m[41m[m
+[32m+[m[32m  color: red;[m[41m[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git "a/app/assets/stylesheets/items/user/login.css\357\200\272Zone.Identifier" "b/app/assets/stylesheets/items/user/login.css\357\200\272Zone.Identifier"[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/app/assets/stylesheets/items/user/registration.css b/app/assets/stylesheets/items/user/registration.css[m
+[1mindex c5671bb..9e9bed5 100644[m
+[1m--- a/app/assets/stylesheets/items/user/registration.css[m
+[1m+++ b/app/assets/stylesheets/items/user/registration.css[m
+[36m@@ -1,160 +1,160 @@[m
+[31m-.registration-main {[m
+[31m-  width: 100%;[m
+[31m-  min-width: 800px;[m
+[31m-  height: 100%;[m
+[31m-  background-color: #f5f5f5;[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-}[m
+[31m-[m
+[31m-/* form-wrapは商品購入画面でも使用しています */[m
+[31m-.form-wrap {[m
+[31m-  width: 50%;[m
+[31m-  background-color: white;[m
+[31m-  padding-bottom: 70px;[m
+[31m-}[m
+[31m-[m
+[31m-.form-header {[m
+[31m-  width: 100%;[m
+[31m-  height: 120px;[m
+[31m-  text-align: center;[m
+[31m-  font-size: 22px;[m
+[31m-}[m
+[31m-[m
+[31m-.form-header-text {[m
+[31m-  line-height: 100px;[m
+[31m-  border-bottom: 1px solid #f5f5f5;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.form-group {[m
+[31m-  width: 50%;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  margin: 0 auto;[m
+[31m-  padding-top: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.form-group:first-child {[m
+[31m-  padding: 0;[m
+[31m-}[m
+[31m-[m
+[31m-.form-text-wrap {[m
+[31m-  width: 100%;[m
+[31m-  height: 20%;[m
+[31m-}[m
+[31m-[m
+[31m-.form-text {[m
+[31m-  font-size: 14px;[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.input-default {[m
+[31m-  width: 100%;[m
+[31m-  margin-top: 5px;[m
+[31m-  height: 48px;[m
+[31m-  padding: 10px 16px 8px;[m
+[31m-  border-radius: 4px;[m
+[31m-  border: 1px solid #ccc;[m
+[31m-  background: #fff;[m
+[31m-  font-size: 16px;[m
+[31m-  resize: none;[m
+[31m-}[m
+[31m-[m
+[31m-.info-text {[m
+[31m-  color: #888;[m
+[31m-  font-size: 15px;[m
+[31m-  margin-top: 3px;[m
+[31m-}[m
+[31m-[m
+[31m-.form-info-header {[m
+[31m-  font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.form-info-text {[m
+[31m-  font-size: 15px;[m
+[31m-}[m
+[31m-[m
+[31m-.input-name-wrap {[m
+[31m-  display: flex;[m
+[31m-  justify-content: center;[m
+[31m-  flex-wrap: wrap;[m
+[31m-}[m
+[31m-[m
+[31m-.input-name {[m
+[31m-  width: 130px;[m
+[31m-  margin: 5px 20px 0 20px;[m
+[31m-  height: 48px;[m
+[31m-  line-height: 30px;[m
+[31m-  padding: 10px 16px 8px;[m
+[31m-  border-radius: 4px;[m
+[31m-  border: 1px solid #ccc;[m
+[31m-  background: #fff;[m
+[31m-  font-size: 14px;[m
+[31m-  resize: none;[m
+[31m-}[m
+[31m-[m
+[31m-.input-birth-wrap {[m
+[31m-  display: flex;[m
+[31m-  flex-wrap: wrap;[m
+[31m-}[m
+[31m-[m
+[31m-.input-birth-wrap select {[m
+[31m-  width: 75px;[m
+[31m-  margin-top: 5px;[m
+[31m-  height: 45px;[m
+[31m-  padding-left: 10px;[m
+[31m-  border-radius: 4px;[m
+[31m-  border: 1px solid #ccc;[m
+[31m-  background: #fff;[m
+[31m-  font-size: 12px;[m
+[31m-  cursor: pointer;[m
+[31m-}[m
+[31m-[m
+[31m-.input-birth-wrap p {[m
+[31m-  line-height: 60px;[m
+[31m-  padding: 0 5px;[m
+[31m-}[m
+[31m-[m
+[31m-.field_with_errors {[m
+[31m-  display: contents;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.form-bottom-text {[m
+[31m-  font-size: 15px;[m
+[31m-  margin-top: 10px;[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.form-bottom-text:last-child {[m
+[31m-  margin: 0;[m
+[31m-  padding-bottom: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-.form-bottom-text>span {[m
+[31m-  color: #0099e8;[m
+[31m-  cursor: pointer;[m
+[31m-}[m
+[31m-[m
+[31m-.register-btn {[m
+[31m-  width: 50%;[m
+[31m-  margin: 0 auto;[m
+[31m-}[m
+[31m-[m
+[31m-.register-red-btn {[m
+[31m-  width: 100%;[m
+[31m-  background: #ea352d;[m
+[31m-  border: 1px solid #ea352d;[m
+[31m-  color: #fff;[m
+[31m-  line-height: 48px;[m
+[31m-  font-size: 14px;[m
+[31m-  cursor: pointer;[m
+[31m-}[m
+[31m-[m
+[31m-.register-info {[m
+[31m-  margin: 30px 180px 0 0;[m
+[31m-  color: #0099e8;[m
+[31m-  text-align: right;[m
+[31m-  cursor: pointer;[m
+[32m+[m[32m.registration-main {[m[41m[m
+[32m+[m[32m  width: 100%;[m[41m[m
+[32m+[m[32m  min-width: 800px;[m[41m[m
+[32m+[m[32m  height: 100%;[m[41m[m
+[32m+[m[32
