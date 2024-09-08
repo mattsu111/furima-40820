@@ -89,9 +89,8 @@ RSpec.describe Item, type: :model do
       it '価格が空だと出品できない' do
         @item.price = ''
         @item.valid? 
-        expect(@item.errors.full_messages).to include("Price is not a number", "Price Price is invalid.harf-width characters")
-
-      end  
+        expect(@item.errors.full_messages).to include("Price can't be blank", "Price is not a number")
+      end
       
       it '価格は全角文字が含まれると出品できない' do
         @item.price = '５００'
@@ -99,7 +98,7 @@ RSpec.describe Item, type: :model do
         expect(@item.errors.full_messages).to include("Price is not a number")
       end
       it '価格は300円以上でないと出品できない' do
-        @item.price = '299'
+        @item.price = 299
         @item.valid?
         
         expect(@item.errors.full_messages).to include("Price must be greater than 299")

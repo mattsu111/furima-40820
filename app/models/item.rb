@@ -9,11 +9,8 @@ class Item < ApplicationRecord
   belongs_to :prefecture
   belongs_to :ship_date
 
-
-  
   validates :item_name, presence: true                    
-  validates :price, numericality: { only_integer: true, greater_than: 299 , less_than: 10_000_000},
-  format: { with: /\A[0-9]+\z/ , message: 'Price is invalid.harf-width characters' }
+  validates :price, presence: true, numericality: { only_integer: true, greater_than: 299, less_than: 10_000_000 }
   validates :explanation, presence: true                    
   validates :image, presence: true
   validates :category_id, presence: true
@@ -22,9 +19,10 @@ class Item < ApplicationRecord
   validates :prefecture_id, presence: true
   validates :ship_date_id, presence: true
 
-  validates :category_id, numericality: { other_than: 1, message: "can't be blank"}
-  validates :condition_id, numericality: { other_than: 1, message: "can't be blank"}
-  validates :delivery_fee_id, numericality: { other_than: 1, message: "can't be blank"}
-  validates :prefecture_id, numericality: { other_than: 1, message: "can't be blank"}
-  validates :ship_date_id, numericality: { other_than: 1, message: "can't be blank"}
+  validates :category_id, numericality: { other_than: 1, message: "can't be blank" }
+  validates :condition_id, numericality: { other_than: 1, message: "can't be blank" }
+  validates :delivery_fee_id, numericality: { other_than: 1, message: "can't be blank" }
+  validates :prefecture_id, numericality: { other_than: 1, message: "can't be blank" }
+  validates :ship_date_id, numericality: { other_than: 1, message: "can't be blank" }
+
 end
