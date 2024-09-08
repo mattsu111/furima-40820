@@ -106,11 +106,10 @@ RSpec.describe Item, type: :model do
       end
 
       it '価格は9,999,999円以下でないと出品できない' do
-        @item.price = '10_000_000'
+        @item.price = 10_000_000
         @item.valid?
-        
-        expect(@item.errors.full_messages).to include("Price must be an integer")
-      end 
+        expect(@item.errors.full_messages).to include("Price must be less than 10000000")
+      end
       #出品者情報
       it 'userが紐付いていなければ出品できない' do
         @item.user = nil
