@@ -130,15 +130,15 @@
 
      <% @items.each do |item| %>
          <li class='list'>
-        <%= link_to item_path(item.id),method: :get do %>
+        <%= link_to "#" do %>
         <div class='item-img-content'>
           <%= image_tag item.image, class: "item-img" %>
+                <%# if item.sold_out? %>
+                <%# <div class='sold-out'> %>
+                <%#   <span>Sold Out!!</span> %>
+                <%# </div> %>
+              <%# end %>
 
-         <%if [@item,@purchase_records_sending] %>
-          <div class='sold-out'>
-            <span>Sold Out!!</span>
-          </div>
-          <%end %>
 
 
         </div>
