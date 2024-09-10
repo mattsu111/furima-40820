@@ -1,9 +1,12 @@
 class ItemsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create]
-  before_action :set_item, only: [ :show, ]
+  before_action :authenticate_user!, except: [:index, :show]
+  before_action :set_item, only: [:edit, :show, :update ]
+  before_action :move_to_index, only: [:edit, :update]
+
   def index
     @items = Item.includes(:user).order("created_at DESC")
   end
+
   def new
     @item = Item.new
   end
@@ -16,13 +19,28 @@ def create
   else
     render :new, status: :unprocessable_entity
   end
+end
 
   def show
 
   end
 
+  def edit
+    unless current_user 
+      return redirect_to root_path
+    end
+  end  
 
-end
+  def update
+    
+    if @item.update(item_params)
+      redirect_to item_path(@item.id)
+    else
+      render :edit ,status: :unprocessable_entity
+    
+    end
+  end  
+
   private
   
   def item_params
@@ -33,5 +51,9 @@ end
     @item = Item.find(params[:id])
   end  
 
-
-end
+  def move_to_index
+    unless current_user.id == @item.user_id
+      redirect_to action: :index
+    end
+  end
+  end
