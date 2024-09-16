@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :items 
+
+  resources :items do
+    resources :purchase_records, only: [:index, :create] 
+   end
 
   root "items#index"
 end
