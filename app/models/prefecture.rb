@@ -43,6 +43,7 @@ class Prefecture < ActiveHash::Base
     { id: 41, name: '福岡県' },
     { id: 42, name: '佐賀県' },
     { id: 43, name: '長崎県' },
+    { id: 44, name: '熊本県' },
     { id: 45, name: '大分県' },
     { id: 46, name: '宮崎県' },
     { id: 47, name: '鹿児島県' },
